@@ -22,6 +22,8 @@ The checkpoint runs locally in the HTML deck. It does not connect to Kahoot or c
 
 The talk track provides suggested spoken language for all 21 slides, elapsed-time targets, discussion instructions, expected answers, the quiz answer key, transitions, and backup responses. Keep it on a separate device or print it for use while projecting the deck.
 
+Slide 15 connects Charlie Munger’s incentive concept with Hanoi’s 1902 rat-tail bounty, then asks students to design a Safelite quality safeguard. The slide and presenter references cite these external sources separately from the HBS case.
+
 ## Editing and exporting
 
 Read the style guide before revising the presentation. Edit the HTML source and update the PDF whenever visible slide content changes. Preserve case citations and distinguish case facts from assumptions and proposed contract changes.

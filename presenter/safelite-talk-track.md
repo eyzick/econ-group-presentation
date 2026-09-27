@@ -1,6 +1,6 @@
 # Safelite: presenter talk track and discussion script
 
-Prepared September 27, 2026 for the consolidated 21-slide [HTML deck](../slides/safelite-performance-pay.html) and [PDF deck](../pdf/safelite-performance-pay.pdf). Aligned with presentation commit `e94e810`.
+Prepared September 27, 2026 for the consolidated 21-slide [HTML deck](../slides/safelite-performance-pay.html) and [PDF deck](../pdf/safelite-performance-pay.pdf). Includes the Munger and Hanoi discussion on slide 15.
 
 ## How to use this script
 
@@ -30,7 +30,7 @@ Prepare a timer and a place to tally votes. Students can signal A-D using one to
 | 12 | Seasonality | 2 | 26:00-28:00 |
 | 13 | Guarantee reduction | 3 | 28:00-31:00 |
 | 14 | Selection | 2 | 31:00-33:00 |
-| 15 | Quality scenario | 3 | 33:00-36:00 |
+| 15 | Munger, Hanoi, and quality | 3 | 33:00-36:00 |
 | 16 | Manager incentives | 2 | 36:00-38:00 |
 | 17 | Team contract exercise | 4 | 38:00-42:00 |
 | 18 | Five-question game | 5 | 42:00-47:00 |
@@ -366,31 +366,33 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 *Source: HBS case, pp. 6 and 8-9. Effort and selection channels are economic predictions, not reported post-rollout findings in this case.*
 
-## Slide 15: Workers shift attention toward what the pay formula measures
+## Slide 15: Incentives can reward the wrong outcome
 
 **3 minutes | 33:00-36:00**
 
 **Say:**
 
-“The pay plan rewards completed units, certain other tasks, and sales. Quality, safety, customer explanations, and cooperation are harder to measure. When time is limited, workers may shift attention toward the activities with the clearest reward.
+“Charlie Munger called this the Reward and Punishment Superresponse Tendency. His point was that incentives can influence behavior and judgment more strongly than we expect. That's a paraphrase of his idea, rather than a quotation.
 
-“Imagine a technician is already above the guarantee and can finish one more job by rushing a check or cleanup. The extra unit adds pay immediately. The cost of a quality failure may arrive later and may fall on someone else.”
+“A separate historical example makes the problem concrete. In Hanoi in 1902, French colonial authorities wanted to reduce rats and disease. They offered a bounty and accepted rat tails as evidence of a kill. Historian Michael Vann describes people farming rats and collecting tails while leaving rats alive to breed.
 
-**Ask:** “The next job adds pay but requires rushing. What guardrail changes the choice?”
+“The measure became profitable even when the real goal suffered. For Safelite, the concern is that completed units may rise while quality or service deteriorates. We aren't claiming technicians actually did this. We're asking what the contract makes attractive.”
 
-[Allow about 60 seconds for two suggestions and a brief challenge to one.]
+**Ask:** “What is Safelite's rat-tail metric? What guardrail keeps it aligned with the goal?”
 
-**Presenter cues:** Look for quality thresholds, verified rework measures, audits, and customer feedback. Ask whether a proposed penalty depends on an outcome the technician actually controlled. Do not present any penalty as an existing case provision.
+[Use about 90 seconds for the introduction, 50 seconds for two short responses, and 40 seconds for debrief and transition. The story replaces the previous rushing scenario within the same three minutes.]
+
+**Presenter cues:** The proxy is completed units. Look for quality thresholds, verified rework measures, or audits. Ask whether a penalty concerns an outcome the technician controlled. These are proposed safeguards. Attribute the tendency to Munger and the historical account to Vann; do not imply Munger told the Hanoi story. Responding to incentives need not be irrational.
 
 **Debrief:**
 
-“A credible quality measure can bring some of that delayed cost back into the decision. But a poorly designed penalty can encourage workers to hide problems or avoid difficult jobs. We need reliable attribution and a reason to report defects honestly.
+“Hanoi illustrates gaming a proxy. Safelite also faces multitasking: attention to paid units can crowd out checks, cleanup, or helping coworkers, even without fraud. A quality guardrail needs reliable attribution and a reason to report defects honestly.
 
-“This is the multitasking problem: stronger incentives on one measurable task can reduce effort on another valuable task. More completed units create value only if the work meets the required standard.”
+“The lesson is to test whether the rewarded measure improves the actual outcome. Stronger incentives alone won't fix missing parts or unavailable jobs.”
 
 **Transition:** “Managers face their own version of this tradeoff.”
 
-*Source: pay components and quality goals in HBS case, pp. 7 and 11. Rushing scenario and guardrails are analytical examples.*
+*Sources: Charlie Munger, [The Psychology of Human Misjudgment](https://fs.blog/great-talks/psychology-human-misjudgment/), revised 2005; Michael G. Vann, [The Great Hanoi Rat Hunt interview](https://madeinchinajournal.com/2020/08/20/the-great-hanoi-rat-hunt/), 2020. Safelite pay components and quality goals: HBS case, pp. 7 and 11. The analogy, quality risks, and guardrails are analysis.*
 
 ## Slide 16: Manager incentives depend on store size and job design
 
@@ -615,4 +617,4 @@ These are optional preparation notes, not additional material to deliver on top 
 
 ## Source and scope
 
-Brian J. Hall, Edward Lazear, and Carleen Madigan, *Performance Pay at Safelite Auto Glass (A)*, Harvard Business School case 9-800-291, revised December 6, 2001. Citations refer to printed case pages. The script paraphrases the case and distinguishes reported facts from calculations, conceptual examples, and proposed decisions. It does not reproduce the original case or rely on later outcome evidence.
+Brian J. Hall, Edward Lazear, and Carleen Madigan, *Performance Pay at Safelite Auto Glass (A)*, Harvard Business School case 9-800-291, revised December 6, 2001. Citations refer to printed case pages. The script paraphrases the case and distinguishes reported facts from calculations, conceptual examples, and proposed decisions. Slide 15 adds separately sourced Munger commentary and a Hanoi historical analogy. The script does not reproduce the original case or rely on later Safelite outcome evidence.
