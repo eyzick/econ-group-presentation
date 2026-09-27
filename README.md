@@ -7,6 +7,7 @@ A 21-slide MBA 641 case presentation on *Performance Pay at Safelite Auto Glass 
 - [Interactive HTML deck](slides/safelite-performance-pay.html)
 - [PDF slides](pdf/safelite-performance-pay.pdf)
 - [Style guide for contributors and agents](slides/safelite-style-guide.md)
+- [Presenter talk track and discussion script](presenter/safelite-talk-track.md)
 
 Download or clone this repository and open the HTML file in a browser. It is self-contained and needs no installation or network connection. GitHub's file viewer displays the source rather than running the presentation.
 
@@ -17,6 +18,8 @@ Use the arrow keys, Space, or Page Up/Down to navigate. Home and End jump to the
 The deck includes 12 quick “Ask the room” questions, pair and team exercises, a five-question checkpoint, and a final decision vote. Presenter notes include timing, expected answers, optional follow-ups, and debriefs. Questions on slides 3, 11, 16, and 19 are optional if discussion runs long.
 
 The checkpoint runs locally in the HTML deck. It does not connect to Kahoot or collect student responses. The PDF provides static questions and omits presenter notes.
+
+The talk track provides suggested spoken language for all 21 slides, elapsed-time targets, discussion instructions, expected answers, the quiz answer key, transitions, and backup responses. Keep it on a separate device or print it for use while projecting the deck.
 
 ## Editing and exporting
 
