@@ -8,6 +8,7 @@ A 21-slide MBA 641 case presentation on *Performance Pay at Safelite Auto Glass 
 - [PDF slides](pdf/safelite-performance-pay.pdf)
 - [Style guide for contributors and agents](slides/safelite-style-guide.md)
 - [Presenter talk track and discussion script](presenter/safelite-talk-track.md)
+- [High-level presenter reference sheet](presenter/safelite-reference-sheet.md)
 
 Download or clone this repository and open the HTML file in a browser. It is self-contained and needs no installation or network connection. GitHub's file viewer displays the source rather than running the presentation.
 
