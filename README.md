@@ -2,6 +2,8 @@
 
 A 21-slide MBA 641 case presentation on *Performance Pay at Safelite Auto Glass (A)*, with a 58-minute plan plus time for transitions.
 
+The main HTML and PDF use the approved September 28 editorial redesign: serif headlines, cobalt evidence slides, and lime classroom activities. The existing talk track and reference sheet remain aligned by slide number.
+
 ## Files
 
 - [Interactive HTML deck](slides/safelite-performance-pay.html)

@@ -1,6 +1,6 @@
 # Safelite presentation style guide
 
-Version 1.1 · September 25, 2026
+Version 2.0 · September 28, 2026 · Approved editorial redesign
 
 Use this guide when extending, revising, or adapting the MBA economics presentation **Performance Pay at Safelite Auto Glass**. It documents the existing design and gives agents practical rules for keeping new material consistent. It is a portable Markdown reference, not an installed agent skill.
 
@@ -21,7 +21,9 @@ Share all three files with another agent when possible. The guide can also serve
 
 **Format:** A self-contained HTML deck and a matching landscape PDF. The current deck contains 21 slides with 58 minutes of scheduled activity, leaving about two minutes for transitions. Maintain approximately 18-22 slides and a 60-minute session unless the user changes the brief.
 
-**Visual character:** Warm off-white canvases, deep navy type, muted teal evidence graphics, amber discussion cues, generous whitespace, and large factual headlines. Use dark navy slides for the opening, major conceptual moments, the quiz, and the final decision.
+**Visual character:** Editorial serif headlines, large evidence figures, thin dividing rules, and a brighter classroom rhythm. Use white or pale blue for analysis, navy for the opening and final decision, cobalt for the first vote, guarantee reduction, and quiz, and lime for group exercises.
+
+**Design reference:** McKinsey's December 2023 [Future of Work presentation to Indiana GWC](https://www.in.gov/gwc/files/McKinsey_Future-of-Work.pdf), especially PDF pages 3 and 4, informed the serif headlines, prominent numbers, blue palette, direct chart labels, and fine rules. No McKinsey text, images, logo, or proprietary typeface is reused. This is not a McKinsey-branded presentation.
 
 This is a classroom design, not official Safelite branding. Do not imply that Safelite or Harvard Business School endorsed it.
 
@@ -29,83 +31,78 @@ This is a classroom design, not official Safelite branding. Do not imply that Sa
 
 | Token | Hex | Intended use |
 | --- | --- | --- |
-| `--paper` | `#F7F4EE` | Default background |
-| `--navy` | `#0C2C3C` | Headings, dark backgrounds, strong table rules |
-| `--ink` | `#13212A` | Main body text |
-| `--muted` | `#5B6B74` | Supporting text on light backgrounds |
-| `--blue` | `#1F6F8B` | Primary evidence series, section labels, borders |
-| `--sky` | `#79B8C8` | Secondary evidence series and connectors |
-| `--amber` | `#F0AA3C` | Discussion accents, caution rules, quiz controls |
-| `--coral` | `#D96055` | Income reductions, exposure, contrasting series |
-| `--green` | `#438A72` | Favorable assessments and correct-answer emphasis |
-| `--line` | `#CBD5D8` | Quiet table and section dividers |
-| `--white` | `#FFFFFF` | Text on dark backgrounds and restrained fills |
-| Light blue canvas | `#E8F1F3` | Conceptual and operating-model slides |
-| Light amber canvas | `#FFF3DD` | Pair discussions and team exercises |
+| `--paper` | `#FFFFFF` | Default canvas |
+| `--navy` | `#071E32` | Headings, dark canvases |
+| `--ink` | `#101F31` | Body text |
+| `--muted` | `#506174` | Supporting copy |
+| `--blue` | `#2455ED` | Cobalt evidence, poll, guarantee slide, quiz |
+| `--sky` | `#92B6FF` | Secondary chart series |
+| `--amber` | `#DDF96B` | Lime exercises, voting letters, correct answers |
+| `--coral` | `#D73C55` | Contrasting risks |
+| `--green` | `#087A64` | Favorable ratings and selected evidence |
+| `--line` | `#CCD5E0` | Table and section dividers |
+| Pale blue | `#F0F4FA` | Operating and conceptual slides |
+| Warm cream | `#FFF7EC` | Munger/Hanoi analogy |
 
-On dark backgrounds use `#C8D9DF` for secondary text, `#9ED4DF` for small section labels, and `#9CB1BA` for source notes. Use `#B87512` for amber-colored text on light backgrounds. Reserve bright amber primarily for fills and rules because small amber text is hard to read.
-
-Limit each slide to its background, text colors, and one or two purposeful accents. Pair color with labels, letters, or line patterns. A red/green distinction must remain understandable without color perception.
+The legacy token name `--amber` now means lime. The guarantee slide uses white type and lime reduced-guarantee figures on cobalt. Dark-slide supporting text uses pale blue, with light source notes. Pair color with words or line patterns. The hourly-pay series is dashed, while PPP is solid.
 
 ## 3. Typography
 
-Use this font stack throughout:
+Use Georgia with Times New Roman/serif fallbacks for titles and large figures. Use Avenir Next with Helvetica Neue/Arial/sans-serif fallbacks for supporting copy. Do not load external fonts.
 
-```css
-font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
-```
+Sizes below are CSS pixels on the 1280 × 720 canvas. The browser scales the entire canvas proportionally.
 
-The reference renders in Avenir Next on the original machine. Other systems may choose a fallback and change line wrapping. Inspect the result on the export system. Do not fetch fonts from an external service merely to open the deck.
+| Role | Size | Treatment |
+| --- | --- | --- |
+| Cover title | 104px | Georgia, regular, 1.02 line height |
+| Slide title | 43px | Georgia, regular, 1.07 line height |
+| Activity title | 53px | Georgia, regular |
+| Final decision title | 61px | Georgia, regular |
+| Subheading | 25px | Sans serif, bold |
+| Body | 21px | Sans serif, 1.3 line height |
+| Supporting sentence | 23px | Muted sans serif |
+| Large figure | 80–146px | Georgia, regular; slide-specific |
+| Question band | 22px | Sans serif, semibold |
+| Eyebrow | 12px | Uppercase, tracking 0.15em |
+| Source note | 9px | Supporting attribution only |
 
-The following values reproduce the current HTML. Sizes are CSS pixels, not PowerPoint points.
-
-| Role | CSS size | Line height | Treatment |
-| --- | --- | --- | --- |
-| Cover title | `clamp(44px, 5.3vw, 84px)` | `0.98` | Bold, tracking `-0.045em` |
-| Slide title | `clamp(34px, 3.4vw, 57px)` | `1.03` | Bold, tracking `-0.035em` |
-| Subheading | `clamp(22px, 1.8vw, 31px)` | `1.15` | Bold |
-| Body | `clamp(18px, 1.42vw, 25px)` | `1.32` | Regular, selective bold |
-| Large supporting sentence | `clamp(22px, 1.7vw, 30px)` | `1.34` | Muted |
-| Hero number | `clamp(74px, 8.3vw, 138px)` | `0.88` | Weight 800, tabular numerals |
-| Eyebrow | `clamp(15px, 1vw, 18px)` | Inherited | Uppercase, weight 700, tracking `0.12em` |
-| Source note | `clamp(10px, .72vw, 13px)` | `1.2` | Quiet supporting reference |
-
-Keep the title to one or two lines. Body text should remain readable from the back of a classroom. Some existing dense tables use smaller type; prefer fewer words or fewer rows in additions rather than copying that size as a default. Never put a caveat essential to interpreting a figure only in the small source note.
+Prefer concise copy over shrinking type. Essential caveats belong in readable body text. Check wrapping on the export system because fallback fonts can differ.
 
 ## 4. Canvas and spacing
 
-- Use a 16:9 canvas. The PDF measures 960 × 540 points, approximately 13.333 × 7.5 inches.
-- The current slide container uses `padding: 5.3% 6.5% 4.4%`. Reuse the CSS when matching the deck. CSS percentage padding resolves against the containing width; it is not a literal percentage of slide height.
-- Align titles, section labels, main content, and source notes to a common left edge.
-- Use a two-column gap of about 5.2% and a three-column gap of about 3.4%.
-- Keep the source note along the bottom, clear of the content. Put the slide number at the lower right.
-- Give a slide one dominant visual or comparison. Keep whitespace when it helps the audience concentrate.
-- Use square corners and flat surfaces. Reserve circles for numbered process steps or simple category markers. The deck does not use photographic backgrounds, ornamental illustrations, or brand logos.
-- Reserve boxes for meaningful alternatives, quiz answers, phases, and scenarios. Avoid turning explanatory slides into collections of dashboard tiles.
+- Fixed 1280 × 720 HTML canvas. `fitDeck()` computes the viewport scale, and the deck is centered using a translate-and-scale transform.
+- PDF pages remain 960 × 540 points (13.333 × 7.5 inches). Printing removes the screen transform.
+- Standard slide padding: 36px top, 64px sides, 70px bottom.
+- Question slides reserve 162px at the bottom. Their question band sits 56px from the bottom, with a 127px label column and 28px gap.
+- Source notes sit 15px above the bottom. Slide numbers sit at the lower right.
+- Use thin rules and flat columns. Keep filled boxes primarily for actual quiz controls or a meaningful formula.
+- Large letters and numbered scenarios help the audience act. Do not add ornamental illustrations or logos merely to fill space.
+- The HTML retains the original base CSS followed by editorial overrides. The later rules define the approved appearance. Check selector specificity before changing either block.
 
 ## 5. Reusable slide patterns
 
 | Pattern | Composition | Existing reference |
 | --- | --- | --- |
-| Cover | Navy background, large white title, short amber rule, muted subtitle | Slide 1 |
-| Opening poll | Light blue canvas, direct question, four A-D alternatives in a 2 × 2 layout | Slide 2 |
-| Company context | Three large statistics and a small direct-labeled comparison | Slide 3 |
-| Operating process | Four numbered stages, short labels, simple connectors | Slide 4 |
-| Quantitative puzzle | One large figure or bar, visible caveat, discussion prompt | Slide 5 |
-| Economic mechanism | Equation or concept at left, short explanations at right | Slide 6 |
-| Chart explanation | Short text on one side, large chart on the other | Slide 7 |
-| Contract comparison | Two phases with a single pay formula beneath them | Slide 8 |
-| Worked example | Compact table paired with a large calculated result | Slide 9 |
-| Pair discussion | Amber canvas, concrete categories, one decision prompt | Slide 10 |
-| Tradeoff | Two balanced columns with parallel labels | Slide 11 |
-| Calculation table | Clear assumptions, aligned amounts, coral for reduced guarantees | Slide 13 |
-| Team exercise | Four short scenarios with a shared task | Slide 17 |
-| Quiz | Navy canvas, one question at a time, A-D responses and reveal feedback | Slide 18 |
-| Options matrix | Criteria down rows, choices across columns, explicit judgment labels | Slide 19 |
-| Proposed redesign | Flat rows linking each provision to its purpose | Slide 20 |
-| Final decision | Navy canvas, three equally prominent options, vote-and-defend prompt | Slide 21 |
+| Cover | Navy, large white serif title, fine rule, lime subtitle | Slide 1 |
+| Opening poll | Cobalt, large A–D letters, open two-column choices | Slide 2 |
+| Company context | Three large serif figures, direct-labeled bars | Slide 3 |
+| Operating process | Four large numbers, thin rules and connectors | Slide 4 |
+| Quantitative puzzle | Time bar, large 2.5 figure, visible caveat | Slide 5 |
+| Economic mechanism | Navy, open equation and numbered explanations | Slide 6 |
+| Chart explanation | Text beside solid PPP and dashed hourly curves | Slide 7 |
+| Contract comparison | Two open phases and a highlighted pay formula | Slide 8 |
+| Worked example | Compact table beside a large blue earnings figure | Slide 9 |
+| Pair challenge | Lime, three responsibility columns and discussion task | Slide 10 |
+| Risk tradeoff | Parallel open columns with contrasting rules | Slide 11 |
+| Guarantee calculation | Cobalt, white table, lime reduced guarantees | Slide 13 |
+| Historical analogy | Cream, parallel Hanoi and Safelite comparisons | Slide 15 |
+| Contract lab | Lime, four numbered scenarios and a shared task | Slide 17 |
+| Team showdown | Cobalt, one question, interactive answer choices | Slide 18 |
+| Options matrix | Flat table with labeled analytical judgments | Slide 19 |
+| Proposed redesign | Thin ruled rows connecting provisions to purposes | Slide 20 |
+| Final decision | Navy, equally prominent lime A–C letters and open columns | Slide 21 |
 
-Reuse a pattern when the content serves the same purpose. Do not force every slide into the same composition.
+Reuse the composition that matches the content's purpose. Keep the visual differences between evidence and activities.
 
 ## 6. Writing and facilitation
 
@@ -127,7 +124,7 @@ For a 60-minute session, build in a substantive interaction approximately every 
 
 The deck now includes 12 visible “Ask the room” prompts on slides 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, and 19. Each takes 20-30 seconds within its existing slide allocation. Slides 5 and 15 retain their existing discussion questions. The five longer stops above remain in place. Questions on slides 3, 11, 16, and 19 are optional if the class is behind schedule. Notes give a response method, likely answer, optional follow-up, and debrief. Sum all slide timings after any revision. Preserve roughly two minutes of transition flexibility.
 
-Use `.has-question` for a slide with a quick prompt and `.ask-room` for its bottom question band. The band has a quiet top rule, a teal “Ask the room” label, a small duration, and a larger navy question. On dark slides the question is white. Keep the question concise and reserve the bottom area with `.has-question` padding. Never overlap the content or the source note. The timing includes student responses and debrief, rather than adding time to the session. Put optional status in the notes so the presenter can decide whether to ask the visible question aloud.
+Use `.has-question` for a slide with a quick prompt and `.ask-room` for its bottom question band. The band has a quiet top rule, a cobalt “Ask the room” label (lime on dark backgrounds), a small duration, and a larger navy question. On dark slides the question is white. Keep the question concise and reserve the bottom area with `.has-question` padding. Never overlap the content or the source note. The timing includes student responses and debrief, rather than adding time to the session. Put optional status in the notes so the presenter can decide whether to ask the visible question aloud.
 
 ### Presenter-note pattern
 
@@ -145,7 +142,7 @@ Keep the recommendation in the final notes clearly labeled as a suggested synthe
 
 Use four concise, plausible alternatives with one defensible correct answer for concept questions. Keep open management judgments in discussion polls. Give an explanation after each answer reveal. The current game suggests one point for the correct answer and another for the explanation, scored manually by the presenter.
 
-The HTML checkpoint is a local classroom activity. It has no student-phone connection, automatic team scoring, Kahoot account, hosted game, or live leaderboard. Describe it as a “Kahoot-style checkpoint” unless a real Kahoot game has been created and verified. Provide a static question fallback for the PDF and an answer key in presenter notes.
+The HTML checkpoint is a local classroom activity. It has no student-phone connection, automatic team scoring, Kahoot account, hosted game, or live leaderboard. The slide labels it “Team showdown”; it is a Kahoot-style local checkpoint, not a connected Kahoot game. Provide a static question fallback for the PDF and an answer key in presenter notes.
 
 ## 7. Evidence and economic precision
 
@@ -217,7 +214,7 @@ Follow the existing structure:
 </section>
 ```
 
-Choose `.slide`, `.slide.blue`, `.slide.amber`, or `.slide.dark`. Exactly one slide should carry `.active` in presentation mode. Keep numbers, source notes, and notes synchronized after reordering slides.
+Choose `.slide`, `.slide.blue`, `.slide.amber` (lime), or `.slide.dark`. Some named slides have dedicated palette overrides. Preserve `fitDeck()` and its resize listener, and disable transforms in print. The brief headline animation respects reduced-motion preferences. Exactly one slide should carry `.active` in presentation mode. Keep numbers, source notes, and notes synchronized after reordering slides.
 
 Preserve the controls: arrows, Space, and Page Up/Down navigate; Home/End jump to first/last; `N` toggles notes; Escape hides notes. The URL hash identifies the slide. When changing keyboard handling, avoid intercepting keys needed by focused buttons or other controls.
 

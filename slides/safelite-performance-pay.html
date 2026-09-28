@@ -461,17 +461,213 @@
       .quiz-print { display: grid; grid-template-columns: 1fr 1fr; gap: 13px 30px; margin-top: 3.2%; }
       .quiz-print p { font-size: 16px; line-height: 1.22; padding-bottom: 9px; border-bottom: 1px solid rgba(255,255,255,.22); }
     }
+
+    /* Design exploration: editorial evidence + energetic classroom moments. */
+    :root { --paper:#ffffff; --ink:#101f31; --navy:#071e32; --muted:#506174; --blue:#2455ed; --sky:#92b6ff; --amber:#ddf96b; --coral:#d73c55; --green:#087a64; --line:#ccd5e0; }
+    html,body { background:#061421; font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif; }
+    .deck { position:absolute; left:50%; top:50%; width:1280px; height:720px; flex-shrink:0; transform:translate(-50%,-50%) scale(var(--deck-scale,1)); transform-origin:center center; box-shadow:none; }
+    .slide { padding:36px 64px 70px; }
+    .slide.blue { background:#f0f4fa; }
+    .slide.amber { background:#ddf96b; }
+    .slide.dark { background:#071e32; }
+    .slide.has-question { padding-bottom:162px; }
+    .eyebrow { font-size:12px; letter-spacing:.15em; line-height:1.2; margin:0 0 15px; color:#2455ed; }
+    .dark .eyebrow { color:#b7d5ff; }
+    h1,h2 { font-family:Georgia,"Times New Roman",serif; font-weight:400; letter-spacing:-.038em; }
+    h1 { font-size:94px; line-height:1.02; max-width:1050px; }
+    h2 { font-size:43px; line-height:1.07; max-width:1152px; min-height:92px; }
+    h3 { font-size:25px; line-height:1.12; letter-spacing:-.02em; }
+    p,li,td,th { font-size:21px; line-height:1.3; }
+    .subtitle,.has-question .subtitle { font-size:23px; line-height:1.3; margin-top:20px; max-width:none; }
+    .source { left:64px; right:85px; bottom:15px; font-size:9px; line-height:1.25; color:#596b7c; }
+    .source a { color:inherit; text-underline-offset:2px; }
+    .dark .source { color:#adc0d2; }
+    .slide-no { right:29px; bottom:15px; font-size:11px; color:#7d8c9a; }
+    .dark .slide-no { color:#adc0d2; }
+    .rule { width:110px; height:5px; margin:30px 0; }
+    .two-col,.two-col.wide-right,.two-col.wide-left { gap:48px; }
+    .two-col { min-height:0; }
+    .two-col.wide-right { grid-template-columns:.9fr 1.1fr; }
+    .two-col.wide-left { grid-template-columns:1.08fr .92fr; }
+    .big-number { font-family:Georgia,"Times New Roman",serif; font-weight:400; font-size:106px; line-height:.92; letter-spacing:-.06em; color:var(--blue); }
+    .big-label { font-size:19px; line-height:1.3; margin-top:16px; }
+    .small { font-size:16px; }
+    .quiet { color:var(--muted); }
+    .caution { font-size:18px; line-height:1.35; border-left:4px solid var(--blue); margin-top:24px; padding-left:17px; }
+    .dark .caution { color:#ccdaea; border-color:var(--amber); }
+    .ask-room { left:64px; right:64px; bottom:56px; min-height:72px; border:0; border-top:2px solid #101f31; padding:16px 0 0; grid-template-columns:127px 1fr; gap:28px; }
+    .ask-label { color:var(--blue); font-size:12px; letter-spacing:.09em; }
+    .ask-time { color:var(--muted); font-size:11px; margin-top:6px; }
+    .ask-room p { font-size:22px; font-weight:600; line-height:1.18; }
+    .dark .ask-room { border-color:#7e95ac; }
+    .dark .ask-label { color:var(--amber); }
+    .dark .ask-time { color:#b4c7d9; }
+    .stat-ribbon,.has-question .stat-ribbon { margin-top:21px; gap:44px; }
+    .stat { border-top:1px solid #071e32; padding-top:20px; }
+    .stat strong { font-family:Georgia,serif; font-size:80px; font-weight:400; color:var(--blue); line-height:1; }
+    .stat span { font-size:19px; line-height:1.3; margin-top:14px; }
+    .share-bars { margin-top:29px; }
+    .share-row { grid-template-columns:155px 1fr 62px; font-size:19px; margin:14px 0; }
+    .bar-track { background:#edf1f7; height:21px; }
+    .flow { margin-top:45px; grid-template-columns:1fr 34px 1fr 34px 1fr 34px 1fr; align-items:start; gap:8px; }
+    .flow-dot { border:0; border-radius:0; width:auto; height:87px; background:none; color:var(--blue); font-family:Georgia,serif; font-size:84px; font-weight:400; line-height:1; margin-bottom:26px; }
+    .flow-step { text-align:left; border-top:2px solid var(--blue); padding-top:18px; }
+    .flow-step p { font-size:21px; }
+    .connector { margin-top:68px; background:var(--blue); }
+    .connector::after { border-left-color:var(--blue); }
+    .timebar { margin-top:30px; }
+    .timebar-labels { font-size:13px; }
+    .hours { height:98px; font-size:23px; line-height:1.2; }
+    .hours>div { padding:14px; text-align:left; }
+    .other-hours { background:#d8e3fc; color:#071e32; }
+    .equation { padding:0 24px 0 0; border:0; background:none; color:white; font-family:Georgia,serif; font-size:36px; line-height:1.4; font-weight:400; }
+    .equation span { color:var(--amber); }
+    .mechanism-list { gap:24px; }
+    .mechanism { grid-template-columns:36px 1fr; gap:15px; }
+    .mechanism-num { width:33px; height:33px; border-radius:0; background:none; color:var(--amber); font-family:Georgia,serif; font-size:29px; font-weight:400; }
+    .mechanism p { font-size:21px; padding:0; }
+    .chart-box,.has-question .chart-box { height:310px; min-height:0; background:none; padding:0; }
+    .series-ppp { stroke:var(--blue); stroke-width:8; }
+    .series-hourly { stroke:#7a8da4; stroke-width:5; stroke-dasharray:9 7; }
+    .svg-label { font-family:"Avenir Next",Arial,sans-serif; }
+    .phase,.has-question .phase { margin-top:16px; border:0; gap:44px; }
+    .phase>div,.has-question .phase>div { border:0; border-top:2px solid #071e32; padding:18px 0 0; }
+    .phase h3 { font-family:Georgia,serif; font-size:34px; font-weight:400; color:var(--blue); }
+    .phase p { font-size:20px; }
+    .pay-rule,.has-question .pay-rule { font-family:Georgia,serif; font-size:33px; font-weight:400; margin-top:23px; background:#dde6fc; padding:15px 20px; }
+    th,td { padding:13px 14px; font-size:20px; }
+    th { font-size:16px; border-bottom:2px solid var(--navy); }
+    tr.total td { border-top:2px solid var(--navy); }
+    .allocation { gap:34px; margin-top:35px; }
+    .allocation-col,.allocation-col:nth-child(2),.allocation-col:nth-child(3) { border-top:2px solid #071e32; padding-top:21px; }
+    .allocation-col h3 { font-family:Georgia,serif; font-size:31px; font-weight:400; margin-bottom:23px; }
+    .allocation-col p { font-size:23px; margin:13px 0; }
+    .risk-axis { margin-top:22px; gap:45px; }
+    .risk-side,.risk-side:last-child { background:none; padding:20px 0 0; border-top:3px solid var(--blue); }
+    .risk-side:last-child { border-color:var(--coral); }
+    .risk-side h3 { margin-bottom:20px; }
+    .risk-side li { font-size:21px; margin:12px 0; }
+    .season,.has-question .season { height:240px; margin-top:0; gap:18px; }
+    .season label { font-size:17px; }
+    .season+p { margin-top:16px; font-size:13px; }
+    .cut-table { margin-top:15px; }
+    .cut-table td { font-size:29px; padding:14px; }
+    .cut-table th { font-size:17px; padding:12px; }
+    .sorting,.has-question .sorting { margin-top:20px; gap:55px; }
+    .sort-side,.has-question .sort-side { min-height:220px; }
+    .sort-side h3 { font-size:24px; border-bottom:2px solid var(--blue); padding-bottom:18px; }
+    .person-row { grid-template-columns:8px 1fr; gap:17px; margin:24px 0; }
+    .person,.person.mid,.person.low { width:4px; height:44px; border-radius:0; background:var(--blue); }
+    .sort-side:last-child .person { background:var(--coral); }
+    .person-row p { font-size:21px; }
+    .multitask { gap:46px; margin-top:28px; }
+    .task-side { background:none; padding:21px 0 0; border-top:2px solid var(--blue); }
+    .task-side h3 { font-size:27px; margin-bottom:20px; }
+    .task-line { margin:17px 0; }
+    .task-line p { font-size:20px; }
+    .manager-table { margin-top:14px; }
+    .manager-table td { font-size:21px; padding:13px 12px; }
+    .manager-table th { font-size:16px; padding:12px; }
+    .manager-table td:nth-child(3) { color:var(--blue); font-weight:700; }
+    .shock-grid { gap:22px; margin-top:30px; counter-reset:scenario; }
+    .shock,.shock:nth-child(n) { min-height:278px; background:none; border:0; border-top:2px solid #071e32; padding:17px 0; }
+    .shock::before { counter-increment:scenario; content:"0" counter(scenario); display:block; color:var(--navy); font-family:Georgia,serif; font-size:58px; line-height:1; margin-bottom:23px; }
+    .shock h3 { font-size:23px; margin-bottom:16px; }
+    .shock p { font-size:20px; line-height:1.35; }
+    .quiz-live { margin-top:23px; gap:24px 44px; align-items:start; grid-template-columns:1fr 1.1fr; }
+    .quiz-count { font-size:14px; color:var(--amber); text-transform:uppercase; letter-spacing:.1em; }
+    .quiz-prompt { font-family:Georgia,serif; font-size:38px; font-weight:400; line-height:1.15; margin-top:21px; }
+    .quiz-options { gap:14px; }
+    .quiz-option { font-size:22px; padding:22px; min-height:136px; border:2px solid white; background:rgba(255,255,255,.08); transition:background .15s,transform .15s; }
+    .quiz-option:hover { background:rgba(255,255,255,.2); transform:translateY(-3px); }
+    .quiz-option.correct { border-color:var(--amber); background:var(--amber); color:var(--navy); }
+    .quiz-option.wrong { opacity:.42; }
+    .quiz-feedback { font-size:19px; min-height:48px; color:white; }
+    .quiz-controls button { padding:12px 23px; font-size:17px; }
+    .matrix { margin-top:8px; }
+    .matrix td { font-size:18px; padding:12px; }
+    .matrix th { font-size:17px; padding:11px 12px; }
+    .rating { letter-spacing:0; font-weight:600; }
+    .rating.mid { color:#805c00; }
+    .design-list { gap:0; margin-top:10px; counter-reset:provision; }
+    .design-row { grid-template-columns:275px 1fr; gap:35px; padding:21px 0; margin:0; }
+    .design-row h3 { font-size:22px; color:var(--blue); }
+    .design-row p { font-size:21px; }
+    .decision { gap:34px; margin-top:24px; flex:0; }
+    .decision-option,.decision-option:nth-child(n) { border-top:1px solid #829ab2; background:none; padding:18px 0; }
+    .decision-letter,.decision-option:nth-child(n) .decision-letter { font-family:Georgia,serif; font-weight:400; font-size:93px; color:var(--amber); }
+    .decision-option h3 { font-size:27px; margin-top:21px; }
+    .decision-option p { font-size:19px; line-height:1.33; margin-top:16px; color:#c5d5e5; }
+    .notes { display:none; }
+    .notes-panel { font-family:"Avenir Next",Arial,sans-serif; }
+    .controls { top:12px; right:12px; opacity:.2; }
+    .controls:focus-within { opacity:1; }
+    .progress { background:var(--blue); height:4px; }
+    .slide[data-title="Opening"] { background:#071e32; }
+    .slide:first-child h1 { max-width:1070px; font-size:104px; }
+    .slide:first-child .subtitle { color:var(--amber); font-size:29px; max-width:780px; }
+    .slide:first-child .eyebrow { color:#b7d5ff; }
+    .slide:first-child .rule { width:100%; height:1px; background:#597188; margin:31px 0; }
+    .slide[data-title="Opening poll"] { background:#2455ed; color:white; }
+    .slide[data-title="Opening poll"] h2 { color:white; font-size:53px; min-height:125px; }
+    .slide[data-title="Opening poll"] .eyebrow { color:#d6e3ff; }
+    .poll-choices { margin-top:32px; gap:22px 38px; }
+    .choice { min-height:112px; padding:17px 0; border-top:1px solid #9cbaff; background:none; display:flex; align-items:center; font-size:26px; font-weight:500; }
+    .choice b { font-family:Georgia,serif; font-size:62px; font-weight:400; color:var(--amber); margin-right:26px; }
+    .slide[data-title="Opening poll"] .caution { color:white; border-color:var(--amber); margin-top:34px; font-size:22px; }
+    .slide[data-title="Opening poll"] .source { color:#c3d5ff; }
+    .slide[data-title="Company context"] .stat:nth-child(3) strong { color:#087a64; }
+    .slide[data-title="Productivity puzzle"] .big-number { font-size:146px; }
+    .slide[data-title="Productivity puzzle"] .two-col { margin-top:36px!important; align-items:start; }
+    .slide[data-title="Principal-agent problem"] .two-col { margin-top:25px!important; }
+    .slide[data-title="PPP design"] .two-col { margin-top:19px!important; }
+    .slide[data-title="PPP design"] .two-col .subtitle { font-size:20px; }
+    .slide[data-title="Sample week"] .big-number { font-size:104px; }
+    .slide[data-title="Output control activity"] h2,.slide[data-title="Risk allocation exercise"] h2 { font-size:53px; }
+    .slide[data-title="Output control activity"] .caution,.slide[data-title="Risk allocation exercise"] .caution { font-size:25px; margin-top:39px; max-width:1060px; }
+    .slide[data-title="Thirty percent cut"] { background:#2455ed; color:white; --navy:white; --muted:#d2e0ff; --line:#6d92ff; }
+    .slide[data-title="Thirty percent cut"] h2,.slide[data-title="Thirty percent cut"] h3,.slide[data-title="Thirty percent cut"] .ask-room p { color:white; }
+    .slide[data-title="Thirty percent cut"] .eyebrow,.slide[data-title="Thirty percent cut"] .ask-label { color:var(--amber); }
+    .slide[data-title="Thirty percent cut"] .after { color:var(--amber); }
+    .slide[data-title="Thirty percent cut"] .source,.slide[data-title="Thirty percent cut"] .slide-no { color:#d2e0ff; }
+    .slide[data-title="Thirty percent cut"] .ask-room { border-color:#8caaff; }
+    .slide[data-title="Thirty percent cut"] .cut-table tbody tr:nth-child(2) { background:rgba(255,255,255,.1); }
+    .slide[data-title="Thirty percent cut"] .two-col { margin-top:22px!important; }
+    .slide[data-title="Thirty percent cut"] .subtitle { font-size:21px; }
+    .slide[data-title="Selection effects"] .caution { margin-top:12px; font-size:18px; }
+    .slide[data-title="Multitasking and quality"] { background:#fff7ec; }
+    .slide[data-title="Multitasking and quality"] h2 { min-height:62px; }
+    .slide[data-title="Multitasking and quality"]>.subtitle { font-size:22px; margin-top:16px; max-width:1060px; }
+    .slide[data-title="Multitasking and quality"] .caution { font-size:22px; margin-top:33px; }
+    .slide[data-title="Kahoot-style checkpoint"] { background:#2455ed; }
+    .slide[data-title="Option comparison"] .caution { font-size:16px; margin-top:18px; }
+    .slide[data-title="Final decision"] h2 { font-size:61px; min-height:85px; }
+    .slide[data-title="Final decision"] .caution { font-size:22px; margin-top:28px; }
+    @media (prefers-reduced-motion:no-preference) { .slide.active h2 { animation:enter .28s ease-out; } @keyframes enter { from { opacity:.2; transform:translateY(8px); } to {opacity:1;transform:none;} } }
+    @media print {
+      @page { size:13.333333in 7.5in; margin:0; }
+      html,body { width:1280px; height:auto; display:block; background:white; }
+      .deck { position:relative; left:auto; top:auto; width:1280px; height:auto; transform:none!important; }
+      .slide,.slide.active { position:relative; width:1280px; height:720px; display:flex; break-after:page; padding:36px 64px 70px; }
+      .slide.has-question { padding-bottom:162px; }
+      .slide h2 { animation:none!important; }
+      .slide:last-child { break-after:auto; }
+      .quiz-print { margin-top:10px; gap:18px 30px; }
+      .quiz-print p { font-size:23px; padding:20px 0; }
+      .source a { color:inherit; }
+    }
+
   </style>
 </head>
 <body>
   <main class="deck" aria-label="Safelite performance pay presentation">
 
     <section class="slide dark active" data-title="Title">
-      <div class="eyebrow">MBA Economics Case Discussion</div>
+      <div class="eyebrow">MBA 641 / The incentive decision</div>
       <div class="spacer"></div>
-      <h1>Performance Pay at Safelite Auto Glass</h1>
+      <h1>Performance pay<br>at Safelite Auto Glass</h1>
       <div class="rule"></div>
-      <p class="subtitle">Incentives, worker risk, and the 30% guarantee decision</p>
+      <p class="subtitle">More output. More risk.<br>Would you take the deal?</p>
       <div class="spacer"></div>
       <p class="source">Primary source: Hall, Lazear, and Madigan, HBS case 9-800-291, rev. 2001.</p>
       <span class="slide-no">1</span>
@@ -483,7 +679,7 @@
     </section>
 
     <section class="slide blue" data-title="Opening poll">
-      <div class="eyebrow">Opening poll | 3 minutes</div>
+      <div class="eyebrow">Your first vote / 3 minutes</div>
       <h2>Why does an eight-hour day produce only 2.5 glass units?</h2>
       <div class="poll-choices">
         <div class="choice"><b>A</b> Low worker effort</div>
@@ -696,7 +892,7 @@
     </section>
 
     <section class="slide amber" data-title="Output control activity">
-      <div class="eyebrow">Pair discussion | 4 minutes</div>
+      <div class="eyebrow">Pair challenge / 4 minutes</div>
       <h2>Who controls each source of lost output?</h2>
       <div class="allocation">
         <div class="allocation-col"><h3>Technician</h3><p>Effort and pace</p><p>Using the manifest</p><p>Checking parts before departure</p></div>
@@ -887,7 +1083,7 @@
     </section>
 
     <section class="slide amber" data-title="Risk allocation exercise">
-      <div class="eyebrow">Team exercise | 4 minutes</div>
+      <div class="eyebrow">Contract lab / 4 minutes</div>
       <h2>Design a pay rule for four shocks</h2>
       <div class="shock-grid">
         <div class="shock"><h3>Wrong glass</h3><p>The warehouse supplied the wrong part. The technician caught it before departure.</p></div>
@@ -905,7 +1101,7 @@
     </section>
 
     <section class="slide dark" data-title="Kahoot-style checkpoint">
-      <div class="eyebrow">Kahoot-style checkpoint | 5 minutes</div>
+      <div class="eyebrow">Team showdown / 5 minutes</div>
       <h2>Five questions on incentive economics</h2>
       <div class="quiz-live">
         <div class="quiz-meta">
@@ -978,7 +1174,7 @@
     </section>
 
     <section class="slide dark" data-title="Final decision">
-      <div class="eyebrow">Final decision | 7 minutes</div>
+      <div class="eyebrow">The decision / 7 minutes</div>
       <h2>What should Safelite do now?</h2>
       <div class="decision">
         <div class="decision-option"><div class="decision-letter">A</div><h3>Roll out PPP as designed</h3><p>Keep the 30% guarantee cut after 12 weeks.</p><p><strong>Benefit:</strong> Faster rollout of the existing incentive plan.</p><p><strong>Tradeoff:</strong> More worker income risk and possible turnover.</p></div>
@@ -1006,6 +1202,8 @@
   <div class="notes-panel" id="notesPanel" aria-live="polite"></div>
 
   <script>
+    function fitDeck(){document.documentElement.style.setProperty('--deck-scale',Math.min(innerWidth/1280,innerHeight/720));}
+    fitDeck(); addEventListener('resize',fitDeck);
     const slides = [...document.querySelectorAll('.slide')];
     const progress = document.getElementById('progress');
     const notesPanel = document.getElementById('notesPanel');
