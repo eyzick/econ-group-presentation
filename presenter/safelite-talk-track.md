@@ -1,6 +1,6 @@
 # Safelite: presenter talk track and discussion script
 
-Prepared September 27, 2026 for the consolidated 21-slide [HTML deck](../slides/safelite-performance-pay.html) and [PDF deck](../pdf/safelite-performance-pay.pdf). Includes the Munger and Hanoi discussion on slide 15.
+Updated September 29, 2026 for the consolidated 22-slide [HTML deck](../slides/safelite-performance-pay.html) and [PDF deck](../pdf/safelite-performance-pay.pdf). Includes the Munger and Hanoi discussion on slide 15 and the instructor-inspired fairness discussion on slide 21.
 
 ## How to use this script
 
@@ -18,27 +18,28 @@ Prepare a timer and a place to tally votes. Students can signal A-D using one to
 | --- | --- | ---: | --- |
 | 1 | Opening | 1 | 00:00-01:00 |
 | 2 | Diagnosis poll | 3 | 01:00-04:00 |
-| 3 | Company context | 2 | 04:00-06:00 |
-| 4 | Operating system | 2 | 06:00-08:00 |
-| 5 | Productivity puzzle | 2 | 08:00-10:00 |
-| 6 | Principal-agent problem | 3 | 10:00-13:00 |
-| 7 | Marginal incentives | 2 | 13:00-15:00 |
-| 8 | Guarantee mechanics | 2 | 15:00-17:00 |
-| 9 | Sample earnings | 3 | 17:00-20:00 |
-| 10 | Pair discussion | 4 | 20:00-24:00 |
-| 11 | Risk and insurance | 2 | 24:00-26:00 |
-| 12 | Seasonality | 2 | 26:00-28:00 |
-| 13 | Guarantee reduction | 3 | 28:00-31:00 |
-| 14 | Selection | 2 | 31:00-33:00 |
-| 15 | Munger, Hanoi, and quality | 3 | 33:00-36:00 |
-| 16 | Manager incentives | 2 | 36:00-38:00 |
-| 17 | Team contract exercise | 4 | 38:00-42:00 |
-| 18 | Five-question game | 5 | 42:00-47:00 |
-| 19 | Option comparison | 2 | 47:00-49:00 |
-| 20 | Possible redesign | 2 | 49:00-51:00 |
-| 21 | Decision, debate, and close | 7 | 51:00-58:00 |
+| 3 | Company context | 1 | 04:00-05:00 |
+| 4 | Operating system | 1 | 05:00-06:00 |
+| 5 | Productivity puzzle | 2 | 06:00-08:00 |
+| 6 | Principal-agent problem | 3 | 08:00-11:00 |
+| 7 | Marginal incentives | 2 | 11:00-13:00 |
+| 8 | Guarantee mechanics | 2 | 13:00-15:00 |
+| 9 | Sample earnings | 2 | 15:00-17:00 |
+| 10 | Pair discussion | 4 | 17:00-21:00 |
+| 11 | Guarantee and discouragement | 2 | 21:00-23:00 |
+| 12 | Seasonality | 2 | 23:00-25:00 |
+| 13 | Guarantee reduction | 3 | 25:00-28:00 |
+| 14 | Selection and recruitment | 2 | 28:00-30:00 |
+| 15 | Munger, Hanoi, and quality | 3 | 30:00-33:00 |
+| 16 | Manager incentives | 1 | 33:00-34:00 |
+| 17 | Team contract exercise | 4 | 34:00-38:00 |
+| 18 | Five-question game | 5 | 38:00-43:00 |
+| 19 | Option comparison | 2 | 43:00-45:00 |
+| 20 | Possible redesign | 2 | 45:00-47:00 |
+| 21 | Compensation preferences and fairness | 4 | 47:00-51:00 |
+| 22 | Decision, debate, and close | 7 | 51:00-58:00 |
 
-If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, then omit optional follow-ups. Keep the final decision discussion. If participation is light, use the listed follow-ups and ask students to identify evidence that would change their position.
+If behind schedule, skip the quick questions on slides **3, 16, and 19**, then omit optional follow-ups. Keep the final decision discussion. If participation is light, use the listed follow-ups and ask students to identify evidence that would change their position.
 
 ## Slide 1: Performance Pay at Safelite Auto Glass
 
@@ -84,55 +85,31 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 3: A national company inside a fragmented industry
 
-**2 minutes | 04:00-06:00**
+**1 minute | 04:00-05:00**
 
-**Say:**
+**Say:** “Safelite had about 500 stores, more than 3,000 employees, and a 12 percent estimated market share versus Harmon's 6 percent. About 1,000 employees were installers, including installing managers. Mobile service accounted for 44 percent of repairs and installations. That makes routing and coordination central to productivity.”
 
-“In 1993, Safelite had about 500 stores and more than 3,000 employees, including roughly 1,000 installers and managers who installed. Its estimated market share was 12 percent, compared with about 6 percent for Harmon Glass. It was large relative to its rivals, but most of the market still lay elsewhere.
+**Ask, 10 seconds; optional if behind:** “Does scale make effort easier or harder to monitor?” [Take one phrase.]
 
-“Safelite had expanded through acquisitions. That created reach, but also duplicated capacity and incentives to focus on individual stores. At the same time, mobile service had grown to 44 percent of repairs and installations. Technicians increasingly brought service to the customer's location.
-
-“That model offers convenience, but it makes routing and coordination central to productivity.”
-
-**Ask, 20 seconds; optional if behind:** “Does a national chain make worker effort easier or harder to monitor?”
-
-[Take hands for easier, harder, or both. Hear one explanation.]
-
-**Debrief:** “Both is plausible. Scale makes personal supervision harder. A shared information system can make output easier to track. But output records still do not show every effort choice.”
-
-**Optional follow-up:** “What important behavior would a completed-job count miss?”
-
-**Transition:** “Safelite's response was to organize work across markets.”
+**Debrief and transition:** “Both are plausible: less personal supervision, but more shared data. Let's follow a job through that system.”
 
 *Source: HBS case, pp. 1-2. Market shares are case estimates.*
 
 ## Slide 4: The market system made output measurable
 
-**2 minutes | 06:00-08:00**
+**1 minute | 05:00-06:00**
 
-**Say:**
+**Say:** “Follow the four steps: customer call, scheduling and glass ordering, warehouse and dispatch, then travel and installation. Centralizing work helps move capacity across stores and count output by technician. But each technician depends on several other people's work.”
 
-“Follow a job through this process. A customer calls the central telephone unit. The system schedules an appointment and orders glass. Warehouse staff prepare the parts, and dispatch assigns a route. Only then does the technician travel to the customer and install the glass.
+**Ask, 10 seconds:** “Where could one mistake stop a productive technician from finishing a job?” [Take one phrase and point to the step.]
 
-“Centralizing this work helps Safelite move capacity across stores instead of having one store turn away customers while another sits idle. The information system also lets management count completed units by technician.
-
-“But look at how many inputs arrive before the technician gets to work. The company has improved measurement while also making individual performance depend on coordination.”
-
-**Ask, 20 seconds:** “Where could one mistake stop a productive technician from finishing a job?”
-
-[Take one answer and point to the relevant process step.]
-
-**Debrief:** “A scheduling error, wrong part, or absent customer can all reduce completed output without proving low effort. We should ask who can prevent the failure, as well as who experiences it.”
-
-**Optional follow-up:** “Who can prevent your example at the lowest cost?”
-
-**Transition:** “That helps us interpret the 2.5-unit figure more carefully.”
+**Debrief and transition:** “Wrong parts or a bad schedule can lower output without proving low effort. That matters when we interpret the 2.5-unit figure.”
 
 *Source: HBS case, pp. 2-4.*
 
 ## Slide 5: 2.5 units account for only part of the workday
 
-**2 minutes | 08:00-10:00**
+**2 minutes | 06:00-08:00**
 
 **Say:**
 
@@ -154,7 +131,7 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 6: The principal can observe output more easily than effort
 
-**3 minutes | 10:00-13:00**
+**3 minutes | 08:00-11:00**
 
 **Say:**
 
@@ -180,7 +157,7 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 7: PPP rewards extra output above the guarantee
 
-**2 minutes | 13:00-15:00**
+**2 minutes | 11:00-13:00**
 
 **Say:**
 
@@ -202,7 +179,7 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 8: A piece rate sits above a changing weekly guarantee
 
-**2 minutes | 15:00-17:00**
+**2 minutes | 13:00-15:00**
 
 **Say:**
 
@@ -224,33 +201,23 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 9: A five-unit day could produce $608.96 in a sample week
 
-**3 minutes | 17:00-20:00**
+**2 minutes | 15:00-17:00**
 
-**Say:**
+**Say:** “The sample assumes two curved tempered parts at $19 and three windshields at $20 each day: $98 a day, or $490 over five days. Other work adds $112.51 and sales add $6.45, totaling $608.96. Over forty hours, that's $15.22 per hour.
 
-“The worksheet assumes a daily mix of two curved tempered parts at $19 each and three windshields at $20 each. That's $38 plus $60, or $98 per day. Over five days, that produces $490.
+“That exceeds the experienced wage range of $10 to $12, but the glass mix assumes five units a day, twice the reported average, plus the other tasks.”
 
-“The sample then adds $112.51 for other installation work and $6.45 for items sold. Total performance pay is $608.96. Dividing by forty hours gives $15.22 per hour, rounded.
+**Ask, 30 seconds:** “What must be true for the advertised $15.22 per hour to be realistic?” [Take two brief conditions.]
 
-“Compared with the experienced wage range of $10 to $12 per hour, that looks attractive. But notice the workload. The glass-unit portion alone assumes five units per day, twice the reported 2.5-unit average, and the example also includes other tasks and sales.”
+**Debrief:** “Enough feasible jobs, correct parts, and the illustrated mix must fit into forty hours. Rates also varied by market. This is an earnings illustration, not a typical-pay forecast. We need the distribution across good and bad weeks.”
 
-**Ask, 30 seconds:** “What must be true for the advertised $15.22 per hour to be realistic?”
-
-[Take two brief conditions. Point back to the relevant worksheet assumptions.]
-
-**Debrief:** “There must be enough available jobs, a feasible route, the right parts, and a task mix that supports those earnings. The work also has to fit the assumed forty hours. Rates varied by market, so this is a sample opportunity rather than a guaranteed earnings forecast for everyone.”
-
-**Say:** “If I were evaluating the offer, I'd want to see more than this one successful week. I'd ask how often workers reach that level and what happens in a bad week. The distribution of earnings matters alongside the average.”
-
-**Optional follow-up:** “Would the same expected pay be equally attractive if weekly income varied a lot?”
-
-**Transition:** “Let's separate the factors workers can control from the factors the company supplies.”
+**Transition:** “Let's separate worker control from what the company supplies.”
 
 *Source: HBS case, p. 7, Table 1. Wage comparison: p. 6.*
 
 ## Slide 10: Who controls each source of lost output?
 
-**4 minutes | 20:00-24:00**
+**4 minutes | 17:00-21:00**
 
 **Say:**
 
@@ -272,31 +239,25 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 *Source: HBS case, pp. 5 and 8-9.*
 
-## Slide 11: High-powered incentives trade insurance for effort
+## Slide 11: Should PPP include a guaranteed minimum?
 
-**2 minutes | 24:00-26:00**
+**2 minutes | 21:00-23:00**
 
-**Say:**
+**Say:** “A minimum can make a bad week survivable. It may reduce discouragement while people learn or when Safelite supplies too few jobs. The company generally has more ability to pool shocks than one household. These are reasons to consider a floor, not measured morale effects in this case.
 
-“A fixed hourly wage protects earnings when output varies, provided paid hours and employment remain unchanged. A piece rate makes earnings more responsive to output. That can improve effort, but it also transmits production shocks into the household budget.
+“But below the floor, another job may add nothing to take-home pay. If the threshold feels unreachable, a worker may see little immediate monetary reason to push harder. Removing the guarantee strengthens the link to output but can also discourage applicants or cause quits. Risk-averse workers may need higher expected earnings to accept that risk.”
 
-“Risk aversion means a worker may prefer steadier pay to a riskier offer with the same expected value. To attract that worker, Safelite might need to offer higher expected earnings as compensation for the risk.”
+**Ask, 30 seconds:** “Keep the minimum, lower it, or remove it? Why?” [Take a three-way vote and one reason.]
 
-**Ask, 20 seconds; optional if behind:** “Who can absorb a week of bad luck more easily: Safelite or one technician?”
+**Debrief:** “Protection and motivation can pull in different directions. A credible opportunity to exceed the floor, reliable dispatch, and coaching matter alongside its size. Neither full insurance nor no guarantee is automatically best.”
 
-**Debrief:** “Safelite generally has more capacity to pool shocks across workers and markets. One household has fewer ways to diversify its paycheck.”
+**Transition:** “Seasonal demand makes this tradeoff concrete.”
 
-**Say:** “That doesn't mean full insurance is always optimal. It can weaken the immediate reward for effort. In the standard incentive-insurance tradeoff, noisier output measures and more risk-averse workers tend to favor weaker output incentives or more protection.”
-
-**Optional follow-up:** “Which risks could Safelite remove operationally instead of compensating workers to bear?”
-
-**Transition:** “Seasonal demand makes this tradeoff especially visible.”
-
-*Source: economic interpretation of HBS case, pp. 8-9.*
+*Source: economic interpretation of HBS case, pp. 6 and 8-9. Motivation effects are hypotheses.*
 
 ## Slide 12: Seasonal demand makes the guarantee economically important
 
-**2 minutes | 26:00-28:00**
+**2 minutes | 23:00-25:00**
 
 **Say:**
 
@@ -318,7 +279,7 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 13: The 30% guarantee cut is large in a household budget
 
-**3 minutes | 28:00-31:00**
+**3 minutes | 25:00-28:00**
 
 **Say:**
 
@@ -344,13 +305,13 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 14: PPP changes who works at Safelite, not only how they work
 
-**2 minutes | 31:00-33:00**
+**2 minutes | 28:00-30:00**
 
 **Say:**
 
 “There are two channels to distinguish. The effort effect occurs when the same technician changes behavior under the new pay plan. Selection occurs when the workforce changes because different people join, stay, or leave.
 
-“Fast technicians who expect high piece earnings may find Safelite more attractive. Some lower-output workers may leave. But the plan can also lose people for reasons other than skill.”
+“Fast technicians who expect high piece earnings may find Safelite more attractive, improving recruitment of some applicants. A low floor can deter skilled applicants who need stable income. Some lower-output workers may leave, but the plan can also lose people for reasons other than skill.”
 
 **Ask, 20 seconds:** “Could PPP drive away a highly skilled technician?”
 
@@ -368,7 +329,7 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 15: Incentives can reward the wrong outcome
 
-**3 minutes | 33:00-36:00**
+**3 minutes | 30:00-33:00**
 
 **Say:**
 
@@ -396,29 +357,19 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 16: Manager incentives depend on store size and job design
 
-**2 minutes | 36:00-38:00**
+**1 minute | 33:00-34:00**
 
-**Say:**
+**Say:** “Large-store managers mainly coordinate. In the smallest stores, managers install most or all of the time. Paying for personal installations can reward productive work but compete with coaching or hiring another technician.”
 
-“At a large operation, the manager's job is to coordinate people. In the case's smaller stores, managers spend much more time installing themselves. The table ranges from no installation time in the largest categories to full installation time in the smallest.
+**Ask, 10 seconds; optional if behind:** “Should a manager's bonus depend on personal or team output?” [Take a quick vote.]
 
-“Rewarding personal installations can encourage lean staffing. It can also make another technician feel like competition for jobs the manager could complete. That may discourage hiring or reduce time spent coaching.”
-
-**Ask, 20 seconds; optional if behind:** “Should a store manager's bonus depend on personal output or the team's output?”
-
-[Take a vote for personal, team, or a mix. Hear one rationale.]
-
-**Debrief:** “Team output can reward coordination, but it makes individual contribution harder to identify and can create free-riding. Personal output is easier to count, but it can pull attention away from management. A sensible measure depends on the job.”
-
-**Optional follow-up:** “Would you use the same mix in a small store and a large dispatch center?”
-
-**Transition:** “Let's try designing rules for the specific problems we've identified.”
+**Debrief and transition:** “Personal output is easier to attribute. Team output rewards coordination but can create free-riding. Match the measure to the job. Now let's design rules for specific shocks.”
 
 *Source: HBS case, pp. 7-8, Table 2.*
 
 ## Slide 17: Design a pay rule for four shocks
 
-**4 minutes | 38:00-42:00**
+**4 minutes | 34:00-38:00**
 
 **Say:**
 
@@ -443,7 +394,7 @@ If behind schedule, skip the quick questions on slides **3, 11, 16, and 19**, th
 
 ## Slide 18: Five questions on incentive economics
 
-**5 minutes | 42:00-47:00**
+**5 minutes | 38:00-43:00**
 
 **Say:** “Stay with your teams. We have five questions. Choose A, B, C, or D. Give yourselves one point for the right answer and another if your team can explain why. Keep your own score; ten points are possible.”
 
@@ -497,7 +448,7 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 ## Slide 19: Three contracts solve different problems
 
-**2 minutes | 47:00-49:00**
+**2 minutes | 43:00-45:00**
 
 **Say:**
 
@@ -517,7 +468,7 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 ## Slide 20: Modified PPP can preserve the slope and improve the floor
 
-**2 minutes | 49:00-51:00**
+**2 minutes | 45:00-47:00**
 
 **Say:**
 
@@ -531,11 +482,43 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 “These are proposed design choices. The case does not report that Safelite adopted them or show us the outcome of this decision.”
 
-**Transition:** “Now you have to choose which tradeoff you are willing to accept.”
+**Transition:** “Before choosing a contract, let's consider what would make the resulting pay differences fair.”
 
 *Source: proposals based on HBS case, pp. 2 and 5-9.*
 
-## Slide 21: What should Safelite do now?
+## Slide 21: When is paying more for output fair?
+
+**4 minutes | 47:00-51:00**
+
+**Preference vote: 30 seconds**
+
+**Say:** “Thinking about your experience, would you prefer hourly pay, salary, or a base plus performance pay? Vote, then give one reason. No need to share what you earn.”
+
+[Take one short response. Hourly pay and salary can both include performance bonuses; these are comparison points, not mutually exclusive legal categories.]
+
+**Scenario: 45 seconds**
+
+**Say:** “Imagine two equally skilled technicians work the same hours with equal effort and quality. One route offers six jobs; the other offers three. Should completing more jobs justify higher pay?
+
+“Now suppose average pay differs between men and women, or older and younger workers. What would you investigate before deciding whether the system is fair? This is a hypothetical, not a reported Safelite demographic pay gap.”
+
+**Pairs: 90 seconds**
+
+**Ask:** “Agree on one condition that makes a productivity premium fair and one safeguard against unequal opportunity. Would hourly pay or a salary change your answer?”
+
+[Give a fifteen-second warning. Avoid asking students to infer ability from group identity or disclose personal details.]
+
+**Report back: 45 seconds**
+
+[Take two short responses. Useful safeguards: transparent job assignment, access to training, quality-adjusted measures, review of pay patterns, and an appeal process. A uniform formula does not ensure equal access to paid opportunities. A group average alone does not identify the cause of a gap.]
+
+**Debrief and transition: 30 seconds**
+
+**Say:** “A productivity premium is easier to defend when the measure captures contribution and people have fair opportunities. Hourly pay still raises questions about wage rates and access to hours. Salary raises questions about workload, evaluations, promotions, and bonuses. Neither label settles fairness. Now choose a Safelite contract that addresses both performance and fair treatment.”
+
+*Source: instructor discussion prompts supplied by the team. Hypothetical and normative analysis, not a legal conclusion or evidence of Safelite discrimination.*
+
+## Slide 22: What should Safelite do now?
 
 **7 minutes | 51:00-58:00**
 
@@ -583,6 +566,15 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 *Source: decision point in HBS case, p. 9. Recommendation is the presenter's judgment.*
 
+## Instructor-question coverage
+
+- **Why was productivity low?** Slides 2, 4-6, and 10 distinguish effort from operating constraints.
+- **How can piece rates help or backfire?** Slides 7-9, 11-17, and 19 cover incentives, risk, selection, quality, and management.
+- **Should there be a guaranteed minimum?** Slide 11 asks explicitly about discouragement and weak incentives below the floor; slides 12-13 add seasonality and the 30% reduction.
+- **Turnover, recruitment, productivity, and quality?** Slides 12-16 cover these separately; slide 20 proposes how to evaluate them.
+- **Personal preference, fairness, group pay gaps, hourly versus salary?** Slide 21 adds a four-minute discussion before the decision.
+- **Hanoi and Munger?** Slide 15 remains intact.
+
 ## Backup responses for likely questions
 
 These are optional preparation notes, not additional material to deliver on top of the 58-minute plan.
@@ -617,4 +609,4 @@ These are optional preparation notes, not additional material to deliver on top 
 
 ## Source and scope
 
-Brian J. Hall, Edward Lazear, and Carleen Madigan, *Performance Pay at Safelite Auto Glass (A)*, Harvard Business School case 9-800-291, revised December 6, 2001. Citations refer to printed case pages. The script paraphrases the case and distinguishes reported facts from calculations, conceptual examples, and proposed decisions. Slide 15 adds separately sourced Munger commentary and a Hanoi historical analogy. The script does not reproduce the original case or rely on later Safelite outcome evidence.
+Brian J. Hall, Edward Lazear, and Carleen Madigan, *Performance Pay at Safelite Auto Glass (A)*, Harvard Business School case 9-800-291, revised December 6, 2001. Citations refer to printed case pages. The script paraphrases the case and distinguishes reported facts from calculations, conceptual examples, and proposed decisions. Slide 15 adds separately sourced Munger commentary and a Hanoi historical analogy. Slide 21 uses the instructor's prompts for hypothetical and normative discussion. The script does not reproduce the original case or rely on later Safelite outcome evidence.

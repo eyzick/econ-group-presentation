@@ -1,6 +1,6 @@
 # Safelite presentation style guide
 
-Version 2.0 · September 28, 2026 · Approved editorial redesign
+Version 2.1 · September 29, 2026 · Editorial design with instructor discussion prompts
 
 Use this guide when extending, revising, or adapting the MBA economics presentation **Performance Pay at Safelite Auto Glass**. It documents the existing design and gives agents practical rules for keeping new material consistent. It is a portable Markdown reference, not an installed agent skill.
 
@@ -19,7 +19,7 @@ Share all three files with another agent when possible. The guide can also serve
 
 **Tone:** Analytical, direct, approachable, and open to disagreement. Write as a case facilitator. Give competing choices a fair hearing and put the presenter's suggested conclusion in notes until after the class votes.
 
-**Format:** A self-contained HTML deck and a matching landscape PDF. The current deck contains 21 slides with 58 minutes of scheduled activity, leaving about two minutes for transitions. Maintain approximately 18-22 slides and a 60-minute session unless the user changes the brief.
+**Format:** A self-contained HTML deck and a matching landscape PDF. The current deck contains 22 slides with 58 minutes of scheduled activity, leaving about two minutes for transitions. Maintain approximately 18-22 slides and a 60-minute session unless the user changes the brief.
 
 **Visual character:** Editorial serif headlines, large evidence figures, thin dividing rules, and a brighter classroom rhythm. Use white or pale blue for analysis, navy for the opening and final decision, cobalt for the first vote, guarantee reduction, and quiz, and lime for group exercises.
 
@@ -93,14 +93,15 @@ Prefer concise copy over shrinking type. Essential caveats belong in readable bo
 | Contract comparison | Two open phases and a highlighted pay formula | Slide 8 |
 | Worked example | Compact table beside a large blue earnings figure | Slide 9 |
 | Pair challenge | Lime, three responsibility columns and discussion task | Slide 10 |
-| Risk tradeoff | Parallel open columns with contrasting rules | Slide 11 |
+| Minimum-pay debate | Reasons for protection versus weak incentives below the floor | Slide 11 |
 | Guarantee calculation | Cobalt, white table, lime reduced guarantees | Slide 13 |
 | Historical analogy | Cream, parallel Hanoi and Safelite comparisons | Slide 15 |
 | Contract lab | Lime, four numbered scenarios and a shared task | Slide 17 |
 | Team showdown | Cobalt, one question, interactive answer choices | Slide 18 |
 | Options matrix | Flat table with labeled analytical judgments | Slide 19 |
 | Proposed redesign | Thin ruled rows connecting provisions to purposes | Slide 20 |
-| Final decision | Navy, equally prominent lime A–C letters and open columns | Slide 21 |
+| Fairness discussion | Lime, personal preference and unequal-opportunity hypothetical | Slide 21 |
+| Final decision | Navy, equally prominent lime A–C letters and open columns | Slide 22 |
 
 Reuse the composition that matches the content's purpose. Keep the visual differences between evidence and activities.
 
@@ -120,9 +121,10 @@ For a 60-minute session, build in a substantive interaction approximately every 
 | Pair discussion on control | 4 | Separate worker actions from production constraints |
 | Team exercise on four shocks | 4 | Design and defend a compensation rule |
 | Five-question checkpoint | 5 | Test concepts and correct misconceptions |
+| Compensation preferences and fairness | 4 | Distinguish contribution, opportunity, and pay basis |
 | Final decision and revote | 7 | Connect the economic tradeoffs to a management choice |
 
-The deck now includes 12 visible “Ask the room” prompts on slides 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, and 19. Each takes 20-30 seconds within its existing slide allocation. Slides 5 and 15 retain their existing discussion questions. The five longer stops above remain in place. Questions on slides 3, 11, 16, and 19 are optional if the class is behind schedule. Notes give a response method, likely answer, optional follow-up, and debrief. Sum all slide timings after any revision. Preserve roughly two minutes of transition flexibility.
+The deck now includes 12 visible “Ask the room” prompts on slides 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, and 19. Each takes 10-30 seconds within its existing slide allocation. Slides 5 and 15 retain their existing discussion questions. The six longer stops above remain in place. Questions on slides 3, 16, and 19 are optional if the class is behind schedule. Notes give a response method, likely answer, optional follow-up, and debrief. Sum all slide timings after any revision. Preserve roughly two minutes of transition flexibility.
 
 Use `.has-question` for a slide with a quick prompt and `.ask-room` for its bottom question band. The band has a quiet top rule, a cobalt “Ask the room” label (lime on dark backgrounds), a small duration, and a larger navy question. On dark slides the question is white. Keep the question concise and reserve the bottom area with `.has-question` padding. Never overlap the content or the source note. The timing includes student responses and debrief, rather than adding time to the session. Put optional status in the notes so the presenter can decide whether to ask the visible question aloud.
 
@@ -172,6 +174,10 @@ Separate case facts, calculations, hypothetical examples, conceptual diagrams, a
 These anchors support the existing deck. Recheck the original case before changing their interpretation or adding new factual claims.
 
 ### Nuances agents must preserve
+
+- Keep the Munger/Hanoi example on slide 15. It illustrates proxy gaming, not documented Safelite misconduct.
+- Slide 21's demographic pay-gap scenario is hypothetical. Do not attribute a gap to Safelite or infer ability from gender or age. Discuss contribution, access to work, measurement, and fair procedures without making legal conclusions.
+- Hourly and salary describe a pay basis; either can include performance bonuses. Neither automatically resolves compensation fairness.
 
 - The case ends with a rollout decision. It does not provide a measured post-rollout productivity effect. Any later empirical findings require a separate source and explicit labeling as later evidence.
 - The sample worksheet is an earnings illustration, not typical realized pay. Its glass mix assumes five units per day plus additional work and sales.
