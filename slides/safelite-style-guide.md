@@ -76,6 +76,8 @@ Prefer concise copy over shrinking type. Essential caveats belong in readable bo
 - Question slides reserve 162px at the bottom. Their question band sits 56px from the bottom, with a 127px label column and 28px gap.
 - Source notes sit 15px above the bottom. Slide numbers sit at the lower right.
 - Use thin rules and flat columns. Keep filled boxes primarily for actual quiz controls or a meaningful formula.
+- Top-align statistic blocks so divider lines, figures, and captions share the same starting heights, even when captions wrap differently.
+- Use `.two-col.comparison` for parallel text comparisons. It aligns headings at the top of a shared row while centering the whole row vertically. Keep the default centered layout for text beside charts or other dissimilar content.
 - Large letters and numbered scenarios help the audience act. Do not add ornamental illustrations or logos merely to fill space.
 - The HTML retains the original base CSS followed by editorial overrides. The later rules define the approved appearance. Check selector specificity before changing either block.
 

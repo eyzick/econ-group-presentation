@@ -153,7 +153,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 5%;
-      align-items: end;
+      align-items: start;
       margin-top: 4.5%;
     }
     .stat { border-top: 3px solid var(--line); padding-top: 14px; }
@@ -487,6 +487,7 @@
     .rule { width:110px; height:5px; margin:30px 0; }
     .two-col,.two-col.wide-right,.two-col.wide-left { gap:48px; }
     .two-col { min-height:0; }
+    .two-col.comparison { align-items:start; align-content:center; }
     .two-col.wide-right { grid-template-columns:.9fr 1.1fr; }
     .two-col.wide-left { grid-template-columns:1.08fr .92fr; }
     .big-number { font-family:Georgia,"Times New Roman",serif; font-weight:400; font-size:106px; line-height:.92; letter-spacing:-.06em; color:var(--blue); }
@@ -837,7 +838,7 @@
     <section class="slide has-question" data-title="General tradeoffs">
       <div class="eyebrow">Beyond Safelite</div>
       <h2>Switching to piece rate carries the same tradeoffs in any job</h2>
-      <div class="two-col" style="margin-top:4%">
+      <div class="two-col comparison" style="margin-top:4%">
         <div>
           <h3>Arguments for piece rate</h3>
           <ul><li>Ties pay directly to output without monitoring effort</li><li>High-output workers self-select toward it</li><li>Removes the moral hazard built into a flat wage</li><li>Can raise total output substantially</li></ul>
@@ -875,7 +876,7 @@
         </div>
       </div>
       <p class="pay-rule">Weekly pay = max(piece earnings, guarantee)</p>
-      <div class="two-col" style="margin-top:4%">
+      <div class="two-col comparison" style="margin-top:4%">
         <div><h3>Incentive effect</h3><p class="subtitle" style="margin-top:10px">The lower floor makes weak output more costly to the technician.</p></div>
         <div><h3>Insurance effect</h3><p class="subtitle" style="margin-top:10px">The lower floor exposes family income to demand and operational shocks.</p></div>
       </div>
@@ -1009,7 +1010,7 @@
           <tr><td>$12.00</td><td>$480</td><td class="after">$8.40</td><td class="after">$336</td></tr>
         </tbody>
       </table>
-      <div class="two-col" style="margin-top:4%">
+      <div class="two-col comparison" style="margin-top:4%">
         <div><h3>Management's logic</h3><p class="subtitle" style="margin-top:9px">A lower floor makes the piece rate matter when output stays low.</p></div>
         <div><h3>Technician's interpretation</h3><p class="subtitle" style="margin-top:9px">Safelite cuts secure pay and asks workers to earn it back.</p></div>
       </div>
