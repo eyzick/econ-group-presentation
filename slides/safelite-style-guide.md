@@ -1,6 +1,6 @@
 # Safelite presentation style guide
 
-Version 2.1 · September 29, 2026 · Editorial design with instructor discussion prompts
+Version 2.2 · October 6, 2026 · Editorial design with whole-class discussion
 
 Use this guide when extending, revising, or adapting the MBA economics presentation **Performance Pay at Safelite Auto Glass**. It documents the existing design and gives agents practical rules for keeping new material consistent. It is a portable Markdown reference, not an installed agent skill.
 
@@ -19,9 +19,9 @@ Share all three files with another agent when possible. The guide can also serve
 
 **Tone:** Analytical, direct, approachable, and open to disagreement. Write as a case facilitator. Give competing choices a fair hearing and put the presenter's suggested conclusion in notes until after the class votes.
 
-**Format:** A self-contained HTML deck and a matching landscape PDF. The current deck contains 22 slides with 58 minutes of scheduled activity, leaving about two minutes for transitions. Maintain approximately 18-22 slides and a 60-minute session unless the user changes the brief.
+**Format:** A self-contained HTML deck and a matching landscape PDF. The current deck contains 23 slides with 60 minutes of scheduled activity. Shorten optional questions to allow for transitions when the session must finish within an hour. Preserve the current slide count unless the user requests a change.
 
-**Visual character:** Editorial serif headlines, large evidence figures, thin dividing rules, and a brighter classroom rhythm. Use white or pale blue for analysis, navy for the opening and final decision, cobalt for the first vote, guarantee reduction, and quiz, and lime for group exercises.
+**Visual character:** Editorial serif headlines, large evidence figures, thin dividing rules, and a brighter classroom rhythm. Use white or pale blue for analysis, navy for the opening and final decision, cobalt for the first vote, guarantee reduction, and quiz, and lime for class discussions.
 
 **Design reference:** McKinsey's December 2023 [Future of Work presentation to Indiana GWC](https://www.in.gov/gwc/files/McKinsey_Future-of-Work.pdf), especially PDF pages 3 and 4, informed the serif headlines, prominent numbers, blue palette, direct chart labels, and fine rules. No McKinsey text, images, logo, or proprietary typeface is reused. This is not a McKinsey-branded presentation.
 
@@ -90,18 +90,19 @@ Prefer concise copy over shrinking type. Essential caveats belong in readable bo
 | Quantitative puzzle | Time bar, large 2.5 figure, visible caveat | Slide 5 |
 | Economic mechanism | Navy, open equation and numbered explanations | Slide 6 |
 | Chart explanation | Text beside solid PPP and dashed hourly curves | Slide 7 |
-| Contract comparison | Two open phases and a highlighted pay formula | Slide 8 |
-| Worked example | Compact table beside a large blue earnings figure | Slide 9 |
-| Pair challenge | Lime, three responsibility columns and discussion task | Slide 10 |
-| Minimum-pay debate | Reasons for protection versus weak incentives below the floor | Slide 11 |
-| Guarantee calculation | Cobalt, white table, lime reduced guarantees | Slide 13 |
-| Historical analogy | Cream, parallel Hanoi and Safelite comparisons | Slide 15 |
-| Contract lab | Lime, four numbered scenarios and a shared task | Slide 17 |
-| Team showdown | Cobalt, one question, interactive answer choices | Slide 18 |
-| Options matrix | Flat table with labeled analytical judgments | Slide 19 |
-| Proposed redesign | Thin ruled rows connecting provisions to purposes | Slide 20 |
-| Fairness discussion | Lime, personal preference and unequal-opportunity hypothetical | Slide 21 |
-| Final decision | Navy, equally prominent lime A–C letters and open columns | Slide 22 |
+| General pay tradeoffs | Two columns comparing the benefits and risks of piece rates | Slide 8 |
+| Contract comparison | Two open phases and a highlighted pay formula | Slide 9 |
+| Worked example | Compact table beside a large blue earnings figure | Slide 10 |
+| Class discussion | Lime, three responsibility columns and discussion task | Slide 11 |
+| Minimum-pay debate | Reasons for protection versus weak incentives below the floor | Slide 12 |
+| Guarantee calculation | Cobalt, white table, lime reduced guarantees | Slide 14 |
+| Historical analogy | Cream, parallel Hanoi and Safelite comparisons | Slide 16 |
+| Compensation scenarios | Lime, four numbered scenarios and a shared task | Slide 18 |
+| Knowledge check | Cobalt, one question, interactive answer choices | Slide 19 |
+| Options matrix | Flat table with labeled analytical judgments | Slide 20 |
+| Proposed redesign | Thin ruled rows connecting provisions to purposes | Slide 21 |
+| Fairness discussion | Lime, personal preference and unequal-opportunity hypothetical | Slide 22 |
+| Final decision | Navy, equally prominent lime A–C letters and open columns | Slide 23 |
 
 Reuse the composition that matches the content's purpose. Keep the visual differences between evidence and activities.
 
@@ -109,24 +110,26 @@ Reuse the composition that matches the content's purpose. Keep the visual differ
 
 Use concrete titles such as “The 30% guarantee cut is large in a household budget” or direct questions such as “Who controls each source of lost output?” Avoid generic headings such as “Unlocking potential.” Explain a concept with a case example before adding terminology.
 
+Use conventional labels such as “Discussion,” “Compensation scenarios,” and “Knowledge check.” Phrase audience prompts as direct questions. Avoid scripted instructions such as “Vote first, then…” or “Ask the room.” Use individual answers and whole-class discussion only. Do not assign pairs, breakout groups, or teams.
+
 Keep slide copy brief, usually about 35-75 words excluding source notes. Tables and exercises may need more. Put detailed interpretation, anticipated objections, and transitions in presenter notes.
 
-Every discussion should have a specific task, a time limit, a response method, and a debrief. Useful formats include a vote, a pair discussion, allocating a shock to a responsible party, choosing a pay rule, or defending a contract. Avoid an unsupported “Thoughts?” prompt.
+Every discussion should have a specific task, a time limit, a response method, and a debrief. Useful formats include a vote, a whole-class discussion, allocating a shock to a responsible party, choosing a pay rule, or defending a contract. Avoid an unsupported “Thoughts?” prompt.
 
 For a 60-minute session, build in a substantive interaction approximately every 5-8 minutes. Include time for students to think and answer. Preserve the current major stops unless the user requests different pacing:
 
 | Stop | Minutes | Intended result |
 | --- | ---: | --- |
 | Opening diagnosis vote | 3 | Surface competing explanations for low output |
-| Pair discussion on control | 4 | Separate worker actions from production constraints |
-| Team exercise on four shocks | 4 | Design and defend a compensation rule |
+| Class discussion on control | 4 | Separate worker actions from production constraints |
+| Class discussion of four scenarios | 4 | Design and defend a compensation rule |
 | Five-question checkpoint | 5 | Test concepts and correct misconceptions |
 | Compensation preferences and fairness | 4 | Distinguish contribution, opportunity, and pay basis |
 | Final decision and revote | 7 | Connect the economic tradeoffs to a management choice |
 
-The deck now includes 12 visible “Ask the room” prompts on slides 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, and 19. Each takes 10-30 seconds within its existing slide allocation. Slides 5 and 15 retain their existing discussion questions. The six longer stops above remain in place. Questions on slides 3, 16, and 19 are optional if the class is behind schedule. Notes give a response method, likely answer, optional follow-up, and debrief. Sum all slide timings after any revision. Preserve roughly two minutes of transition flexibility.
+The deck includes 13 short “Discussion” prompts on slides 3, 4, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, and 20. Each takes 10-30 seconds within its existing slide allocation. Slides 5 and 16 retain their existing discussion questions. The six longer stops above remain in place. Questions on slides 3, 17, and 20 are optional if the class is behind schedule. Notes give a response method, likely answer, optional follow-up, and debrief. Sum all slide timings after any revision. Allow for transitions by shortening optional questions when needed.
 
-Use `.has-question` for a slide with a quick prompt and `.ask-room` for its bottom question band. The band has a quiet top rule, a cobalt “Ask the room” label (lime on dark backgrounds), a small duration, and a larger navy question. On dark slides the question is white. Keep the question concise and reserve the bottom area with `.has-question` padding. Never overlap the content or the source note. The timing includes student responses and debrief, rather than adding time to the session. Put optional status in the notes so the presenter can decide whether to ask the visible question aloud.
+Use `.has-question` for a slide with a quick prompt and `.ask-room` for its bottom question band. The band has a quiet top rule, a cobalt “Discussion” label (lime on dark backgrounds), a small duration, and a larger navy question. On dark slides the question is white. Keep the question concise and reserve the bottom area with `.has-question` padding. Never overlap the content or the source note. The timing includes student responses and debrief, rather than adding time to the session. Put optional status in the notes so the presenter can decide whether to ask the visible question aloud.
 
 ### Presenter-note pattern
 
@@ -142,9 +145,9 @@ Keep the recommendation in the final notes clearly labeled as a suggested synthe
 
 ### Game conventions
 
-Use four concise, plausible alternatives with one defensible correct answer for concept questions. Keep open management judgments in discussion polls. Give an explanation after each answer reveal. The current game suggests one point for the correct answer and another for the explanation, scored manually by the presenter.
+Use four concise, plausible alternatives with one defensible correct answer for concept questions. Keep open management judgments in discussion polls. Give an explanation after each answer reveal. Students may keep their own score, with one point per correct answer and five points possible.
 
-The HTML checkpoint is a local classroom activity. It has no student-phone connection, automatic team scoring, Kahoot account, hosted game, or live leaderboard. The slide labels it “Team showdown”; it is a Kahoot-style local checkpoint, not a connected Kahoot game. Provide a static question fallback for the PDF and an answer key in presenter notes.
+The HTML checkpoint is a local classroom activity. It has no student-phone connection, automatic scoring, Kahoot account, hosted game, or live leaderboard. The slide labels it “Knowledge check”; it is a Kahoot-style local checkpoint, not a connected Kahoot game. Provide a static question fallback for the PDF and an answer key in presenter notes.
 
 ## 7. Evidence and economic precision
 
@@ -175,8 +178,8 @@ These anchors support the existing deck. Recheck the original case before changi
 
 ### Nuances agents must preserve
 
-- Keep the Munger/Hanoi example on slide 15. It illustrates proxy gaming, not documented Safelite misconduct.
-- Slide 21's demographic pay-gap scenario is hypothetical. Do not attribute a gap to Safelite or infer ability from gender or age. Discuss contribution, access to work, measurement, and fair procedures without making legal conclusions.
+- Keep the Munger/Hanoi example on slide 16. It illustrates proxy gaming, not documented Safelite misconduct.
+- Slide 22's demographic pay-gap scenario is hypothetical. Do not attribute a gap to Safelite or infer ability from gender or age. Discuss contribution, access to work, measurement, and fair procedures without making legal conclusions.
 - Hourly and salary describe a pay basis; either can include performance bonuses. Neither automatically resolves compensation fairness.
 
 - The case ends with a rollout decision. It does not provide a measured post-rollout productivity effect. Any later empirical findings require a separate source and explicit labeling as later evidence.

@@ -1,6 +1,6 @@
 # Safelite economics presentation
 
-A 22-slide MBA 641 case presentation on *Performance Pay at Safelite Auto Glass (A)*, with a 58-minute plan plus time for transitions.
+A 23-slide MBA 641 case presentation on *Performance Pay at Safelite Auto Glass (A)*, with a 60-minute plan including discussion.
 
 The main HTML and PDF use the approved September 28 editorial redesign: serif headlines, cobalt evidence slides, and lime classroom activities. The existing talk track and reference sheet remain aligned by slide number.
 
@@ -18,15 +18,15 @@ Download or clone this repository and open the HTML file in a browser. It is sel
 
 Use the arrow keys, Space, or Page Up/Down to navigate. Home and End jump to the first and last slide. Press **N** to toggle presenter notes and Escape to close them. Notes appear in the same window, so they are visible to the audience if that window is projected.
 
-The deck includes 12 quick “Ask the room” questions, pair and team exercises, a five-question checkpoint, and a final decision vote. Presenter notes include timing, expected answers, optional follow-ups, and debriefs. Questions on slides 3, 16, and 19 are optional if discussion runs long.
+The deck includes 13 short discussion questions, whole-class scenario discussions, a five-question knowledge check with individual answers, and a final decision vote. Presenter notes include timing, expected answers, optional follow-ups, and debriefs. Questions on slides 3, 17, and 20 are optional if discussion runs long.
 
 The checkpoint runs locally in the HTML deck. It does not connect to Kahoot or collect student responses. The PDF provides static questions and omits presenter notes.
 
-The talk track provides suggested spoken language for all 22 slides, elapsed-time targets, discussion instructions, expected answers, the quiz answer key, transitions, and backup responses. Keep it on a separate device or print it for use while projecting the deck.
+The talk track provides suggested spoken language for all 23 slides, elapsed-time targets, discussion instructions, expected answers, the quiz answer key, transitions, and backup responses. Keep it on a separate device or print it for use while projecting the deck.
 
-Slide 15 connects Charlie Munger’s incentive concept with Hanoi’s 1902 rat-tail bounty, then asks students to design a Safelite quality safeguard. The slide and presenter references cite these external sources separately from the HBS case.
+Slide 16 connects Charlie Munger’s incentive concept with Hanoi’s 1902 rat-tail bounty, then asks students to design a Safelite quality safeguard. The slide and presenter references cite these external sources separately from the HBS case.
 
-The instructor's prompts are integrated into the guarantee discussion (slide 11), recruitment and selection (slide 14), and a new compensation-preferences and fairness discussion (slide 21). The final decision is now slide 22. Four shorter explanatory sections make room without extending the 58-minute plan. The Hanoi example remains on slide 15.
+The instructor's prompts are integrated into the guarantee discussion (slide 12), recruitment and selection (slide 15), and compensation preferences and fairness (slide 22). Slide 8 covers the general tradeoffs of hourly versus piece-rate pay. The final decision is slide 23. The Hanoi example remains on slide 16. All activities use individual responses or whole-class discussion, with no pair or breakout work.
 
 ## Editing and exporting
 

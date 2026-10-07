@@ -1,16 +1,16 @@
 # Safelite: presenter talk track and discussion script
 
-Updated September 29, 2026 for the consolidated 22-slide [HTML deck](../slides/safelite-performance-pay.html) and [PDF deck](../pdf/safelite-performance-pay.pdf). Includes the Munger and Hanoi discussion on slide 15 and the instructor-inspired fairness discussion on slide 21.
+Updated October 6, 2026 for the current 23-slide [HTML deck](../slides/safelite-performance-pay.html) and [PDF deck](../pdf/safelite-performance-pay.pdf). Includes the Munger and Hanoi discussion on slide 16 and the instructor-inspired fairness discussion on slide 22.
 
 ## How to use this script
 
 The **Say**, **Ask**, **Debrief**, and **Transition** passages are suggested spoken language. Directions in square brackets and **Presenter cues** are private instructions. Adapt the wording to your voice. Do not read the anticipated answers before students respond.
 
-The plan allocates **58 minutes, including student participation**, with two minutes for transitions or spillover. Time windows below are elapsed session time, not additional speaking time. They are targets to rehearse against, not a promise that reading at any speed fills the hour. Use pauses, point to the evidence, and let students explain their reasoning. Optional follow-ups replace spare time within a slide; they are not extra required questions.
+The plan allocates **60 minutes, including student participation**. If the session must finish within an hour, shorten optional questions to allow for transitions. Time windows below are elapsed session time, not additional speaking time. They are targets to rehearse against, not a promise that reading at any speed fills the hour. Use pauses, point to the evidence, and let students explain their reasoning. Optional follow-ups replace spare time within a slide; they are not extra required questions.
 
 Keep this script on a separate device, printed, or in a window the audience cannot see. The deck's **N** key displays notes over the same slide the audience sees. For the game, the presenter reveals answers by clicking an option and advances with the quiz's **Next** button. The game is local to the HTML file, with no automatic scoring or student-phone connection.
 
-Prepare a timer and a place to tally votes. Students can signal A-D using one to four fingers. For the four-scenario exercise, assign four groups by seating area. No student devices are required. Any presenter handoffs should use the transition lines rather than repeat the previous section.
+Prepare a timer and a place to tally votes. Students can signal A-D using one to four fingers. All discussions take place with the whole class. The quiz uses individual answers. No student devices are required. Any presenter handoffs should use the transition lines rather than repeat the previous section.
 
 ## Timing at a glance
 
@@ -23,23 +23,24 @@ Prepare a timer and a place to tally votes. Students can signal A-D using one to
 | 5 | Productivity puzzle | 2 | 06:00-08:00 |
 | 6 | Principal-agent problem | 3 | 08:00-11:00 |
 | 7 | Marginal incentives | 2 | 11:00-13:00 |
-| 8 | Guarantee mechanics | 2 | 13:00-15:00 |
-| 9 | Sample earnings | 2 | 15:00-17:00 |
-| 10 | Pair discussion | 4 | 17:00-21:00 |
-| 11 | Guarantee and discouragement | 2 | 21:00-23:00 |
-| 12 | Seasonality | 2 | 23:00-25:00 |
-| 13 | Guarantee reduction | 3 | 25:00-28:00 |
-| 14 | Selection and recruitment | 2 | 28:00-30:00 |
-| 15 | Munger, Hanoi, and quality | 3 | 30:00-33:00 |
-| 16 | Manager incentives | 1 | 33:00-34:00 |
-| 17 | Team contract exercise | 4 | 34:00-38:00 |
-| 18 | Five-question game | 5 | 38:00-43:00 |
-| 19 | Option comparison | 2 | 43:00-45:00 |
-| 20 | Possible redesign | 2 | 45:00-47:00 |
-| 21 | Compensation preferences and fairness | 4 | 47:00-51:00 |
-| 22 | Decision, debate, and close | 7 | 51:00-58:00 |
+| 8 | Hourly versus piece-rate pay | 2 | 13:00-15:00 |
+| 9 | Guarantee mechanics | 2 | 15:00-17:00 |
+| 10 | Sample earnings | 2 | 17:00-19:00 |
+| 11 | Output and responsibility | 4 | 19:00-23:00 |
+| 12 | Guarantee and discouragement | 2 | 23:00-25:00 |
+| 13 | Seasonality | 2 | 25:00-27:00 |
+| 14 | Guarantee reduction | 3 | 27:00-30:00 |
+| 15 | Selection and recruitment | 2 | 30:00-32:00 |
+| 16 | Munger, Hanoi, and quality | 3 | 32:00-35:00 |
+| 17 | Manager incentives | 1 | 35:00-36:00 |
+| 18 | Compensation scenarios | 4 | 36:00-40:00 |
+| 19 | Knowledge check | 5 | 40:00-45:00 |
+| 20 | Option comparison | 2 | 45:00-47:00 |
+| 21 | Possible redesign | 2 | 47:00-49:00 |
+| 22 | Compensation preferences and fairness | 4 | 49:00-53:00 |
+| 23 | Decision, debate, and close | 7 | 53:00-60:00 |
 
-If behind schedule, skip the quick questions on slides **3, 16, and 19**, then omit optional follow-ups. Keep the final decision discussion. If participation is light, use the listed follow-ups and ask students to identify evidence that would change their position.
+If behind schedule, skip the quick questions on slides **3, 17, and 20**, then omit optional follow-ups. Keep the final decision discussion. If participation is light, use the listed follow-ups and ask students to identify evidence that would change their position.
 
 ## Slide 1: Performance Pay at Safelite Auto Glass
 
@@ -177,9 +178,25 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, pp. 6-7. Numerical threshold examples are illustrative.*
 
-## Slide 8: A piece rate sits above a changing weekly guarantee
+## Slide 8: Switching to piece rate carries the same tradeoffs in any job
 
 **2 minutes | 13:00-15:00**
+
+**Say:** “The same considerations apply beyond Safelite. Piece rates give workers a more direct financial reason to increase measured output and can attract people who expect to earn more that way. But measured output may also depend on demand, equipment, or other people's work.
+
+“Paying for output does not resolve every incentive problem. If quality and cooperation are harder to measure, workers may give them less attention. Employers also face measurement costs, and workers who value stable income may need higher expected pay to accept the risk.”
+
+**Ask, 20 seconds:** “Name a job where piece rate would fit poorly. Why?”
+
+[Take one example and one reason. Team production, safety-critical work, and jobs with variable conditions are useful examples.]
+
+**Summary and transition:** “The suitability of piece rates depends on what we can measure and what workers can control. Now let's look at Safelite's proposed contract.”
+
+*Source: general economic reasoning, applied to the case.*
+
+## Slide 9: A piece rate sits above a changing weekly guarantee
+
+**2 minutes | 15:00-17:00**
 
 **Say:**
 
@@ -199,9 +216,9 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, p. 6.*
 
-## Slide 9: A five-unit day could produce $608.96 in a sample week
+## Slide 10: A five-unit day could produce $608.96 in a sample week
 
-**2 minutes | 15:00-17:00**
+**2 minutes | 17:00-19:00**
 
 **Say:** “The sample assumes two curved tempered parts at $19 and three windshields at $20 each day: $98 a day, or $490 over five days. Other work adds $112.51 and sales add $6.45, totaling $608.96. Over forty hours, that's $15.22 per hour.
 
@@ -215,17 +232,17 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, p. 7, Table 1. Wage comparison: p. 6.*
 
-## Slide 10: Who controls each source of lost output?
+## Slide 11: Who controls each source of lost output?
 
-**4 minutes | 17:00-21:00**
+**4 minutes | 19:00-23:00**
 
 **Say:**
 
-“Turn to a neighbor. These columns are a starting point, and you are allowed to disagree with them. Choose one factor that belongs in a different column or needs shared responsibility. Then decide whether it should reduce technician pay or trigger an operational fix. You have ninety seconds.”
+“Do these columns assign responsibility correctly? Which factors should affect a technician's pay, and which call for an operational fix?”
 
-[Use 30 seconds to explain, 90 seconds for pairs, 60 seconds for two reports, and 60 seconds for debrief and transition. Give a fifteen-second warning before discussion ends.]
+[Use 30 seconds to introduce the columns, two minutes for class discussion, and 90 seconds to summarize and transition. Invite several responses and contrasting views.]
 
-**Ask when reporting back:** “Which factor did you choose, who can influence it, and how should pay respond?”
+**Follow-up:** “Who can influence that factor, and how should pay respond?”
 
 **Presenter cues:** Wrong parts are a good shared-responsibility example. The warehouse creates the error, but the technician can sometimes catch it before departure. Customer absence may be external, while appointment confirmation can reduce its likelihood. Accept more than one allocation if the proposed rule rewards useful prevention.
 
@@ -239,9 +256,9 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, pp. 5 and 8-9.*
 
-## Slide 11: Should PPP include a guaranteed minimum?
+## Slide 12: Should PPP include a guaranteed minimum?
 
-**2 minutes | 21:00-23:00**
+**2 minutes | 23:00-25:00**
 
 **Say:** “A minimum can make a bad week survivable. It may reduce discouragement while people learn or when Safelite supplies too few jobs. The company generally has more ability to pool shocks than one household. These are reasons to consider a floor, not measured morale effects in this case.
 
@@ -255,9 +272,9 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: economic interpretation of HBS case, pp. 6 and 8-9. Motivation effects are hypotheses.*
 
-## Slide 12: Seasonal demand makes the guarantee economically important
+## Slide 13: Seasonal demand makes the guarantee economically important
 
-**2 minutes | 23:00-25:00**
+**2 minutes | 25:00-27:00**
 
 **Say:**
 
@@ -277,9 +294,9 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, p. 6.*
 
-## Slide 13: The 30% guarantee cut is large in a household budget
+## Slide 14: The 30% guarantee cut is large in a household budget
 
-**3 minutes | 25:00-28:00**
+**3 minutes | 27:00-30:00**
 
 **Say:**
 
@@ -303,9 +320,9 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, pp. 6 and 9; regional piece rates: p. 7, Table 1 note a. Calculations assume forty paid hours.*
 
-## Slide 14: PPP changes who works at Safelite, not only how they work
+## Slide 15: PPP changes who works at Safelite, not only how they work
 
-**2 minutes | 28:00-30:00**
+**2 minutes | 30:00-32:00**
 
 **Say:**
 
@@ -327,9 +344,9 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, pp. 6 and 8-9. Effort and selection channels are economic predictions, not reported post-rollout findings in this case.*
 
-## Slide 15: Incentives can reward the wrong outcome
+## Slide 16: Incentives can reward the wrong outcome
 
-**3 minutes | 30:00-33:00**
+**3 minutes | 32:00-35:00**
 
 **Say:**
 
@@ -355,9 +372,9 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Sources: Charlie Munger, [The Psychology of Human Misjudgment](https://fs.blog/great-talks/psychology-human-misjudgment/), revised 2005; Michael G. Vann, [The Great Hanoi Rat Hunt interview](https://madeinchinajournal.com/2020/08/20/the-great-hanoi-rat-hunt/), 2020. Safelite pay components and quality goals: HBS case, pp. 7 and 11. The analogy, quality risks, and guardrails are analysis.*
 
-## Slide 16: Manager incentives depend on store size and job design
+## Slide 17: Manager incentives depend on store size and job design
 
-**1 minute | 33:00-34:00**
+**1 minute | 35:00-36:00**
 
 **Say:** “Large-store managers mainly coordinate. In the smallest stores, managers install most or all of the time. Paying for personal installations can reward productive work but compete with coaching or hiring another technician.”
 
@@ -367,19 +384,19 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: HBS case, pp. 7-8, Table 2.*
 
-## Slide 17: Design a pay rule for four shocks
+## Slide 18: How should pay respond to these four situations?
 
-**4 minutes | 34:00-38:00**
+**4 minutes | 36:00-40:00**
 
 **Say:**
 
-“Each group gets one scenario. Choose full piece credit, partial credit, guarantee only, or a quality penalty. You have ninety seconds to choose a rule and explain what behavior it encourages. There is no single answer key, but your rule must address who controlled the outcome.”
+“Let's consider these situations one at a time. Should the technician receive full piece credit, partial credit, the guarantee only, or a quality penalty? How would your choice affect behavior?”
 
-[Spend 30 seconds assigning groups, 90 seconds on discussion, 80 seconds on four twenty-second reports, and 40 seconds on synthesis.]
+[Spend 20 seconds introducing the options, about 45 seconds discussing each scenario with the class, and 40 seconds summarizing. For each scenario, take a proposed rule and a brief explanation.]
 
-**Ask each group:** “What's your rule, and why would it improve behavior?”
+**Follow-up:** “Who controlled the outcome? Does that affect your proposed rule?”
 
-**Presenter cues for the reports:**
+**Presenter cues:**
 
 - **Wrong glass caught early:** Credit prevention or verified lost time. Full completed-job credit might overpay for unfinished work or invite false claims. Reward the check without removing warehouse accountability.
 - **Customer absent:** Partial credit or protection can recognize a verified arrival. Consider whether contact and confirmation procedures were followed. The rule should not encourage needless trips.
@@ -392,13 +409,13 @@ If behind schedule, skip the quick questions on slides **3, 16, and 19**, then o
 
 *Source: scenarios informed by HBS case, pp. 5 and 8-9. Proposed rules are discussion options.*
 
-## Slide 18: Five questions on incentive economics
+## Slide 19: Five questions on incentive economics
 
-**5 minutes | 38:00-43:00**
+**5 minutes | 40:00-45:00**
 
-**Say:** “Stay with your teams. We have five questions. Choose A, B, C, or D. Give yourselves one point for the right answer and another if your team can explain why. Keep your own score; ten points are possible.”
+**Say:** “We have five questions. Indicate A, B, C, or D with one to four fingers. Each correct answer is worth one point. You can keep your own score.”
 
-[Allow about twenty seconds for setup, then roughly fifty seconds per question, leaving thirty seconds for the closing tally. Ask teams to discuss briefly, vote together, then reveal. Invite one team to explain each answer while the others compare their reasoning.]
+[Allow about twenty seconds for setup, roughly fifty seconds per question, and thirty seconds for the summary. Take individual answers and invite a brief explanation before revealing the correct choice.]
 
 ### Question 1
 
@@ -446,9 +463,9 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 *Source: HBS case, pp. 5-9, interpreted through the economic concepts discussed above.*
 
-## Slide 19: Three contracts solve different problems
+## Slide 20: Three contracts solve different problems
 
-**2 minutes | 43:00-45:00**
+**2 minutes | 45:00-47:00**
 
 **Say:**
 
@@ -466,9 +483,9 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 *Source: HBS case, pp. 5-9. Ratings are analytical judgments.*
 
-## Slide 20: Modified PPP can preserve the slope and improve the floor
+## Slide 21: Modified PPP can preserve the slope and improve the floor
 
-**2 minutes | 45:00-47:00**
+**2 minutes | 47:00-49:00**
 
 **Say:**
 
@@ -486,13 +503,13 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 *Source: proposals based on HBS case, pp. 2 and 5-9.*
 
-## Slide 21: When is paying more for output fair?
+## Slide 22: When is paying more for output fair?
 
-**4 minutes | 47:00-51:00**
+**4 minutes | 49:00-53:00**
 
-**Preference vote: 30 seconds**
+**Compensation preferences: 30 seconds**
 
-**Say:** “Thinking about your experience, would you prefer hourly pay, salary, or a base plus performance pay? Vote, then give one reason. No need to share what you earn.”
+**Say:** “Thinking about your experience, would you prefer hourly pay, salary, or a base plus performance pay? What appeals to you about that approach? No need to share what you earn.”
 
 [Take one short response. Hourly pay and salary can both include performance bonuses; these are comparison points, not mutually exclusive legal categories.]
 
@@ -502,25 +519,23 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 “Now suppose average pay differs between men and women, or older and younger workers. What would you investigate before deciding whether the system is fair? This is a hypothetical, not a reported Safelite demographic pay gap.”
 
-**Pairs: 90 seconds**
+**Class discussion: 2 minutes**
 
-**Ask:** “Agree on one condition that makes a productivity premium fair and one safeguard against unequal opportunity. Would hourly pay or a salary change your answer?”
+**Ask:** “When is higher pay for greater output fair? What safeguards would address unequal opportunity? Would hourly pay or a salary change your answer?”
 
-[Give a fifteen-second warning. Avoid asking students to infer ability from group identity or disclose personal details.]
+[Invite several responses and contrasting views. Avoid asking students to infer ability from group identity or disclose personal details.]
 
-**Report back: 45 seconds**
+[Useful safeguards: transparent job assignment, access to training, quality-adjusted measures, review of pay patterns, and an appeal process. A uniform formula does not ensure equal access to paid opportunities. A group average alone does not identify the cause of a gap.]
 
-[Take two short responses. Useful safeguards: transparent job assignment, access to training, quality-adjusted measures, review of pay patterns, and an appeal process. A uniform formula does not ensure equal access to paid opportunities. A group average alone does not identify the cause of a gap.]
-
-**Debrief and transition: 30 seconds**
+**Debrief and transition: 45 seconds**
 
 **Say:** “A productivity premium is easier to defend when the measure captures contribution and people have fair opportunities. Hourly pay still raises questions about wage rates and access to hours. Salary raises questions about workload, evaluations, promotions, and bonuses. Neither label settles fairness. Now choose a Safelite contract that addresses both performance and fair treatment.”
 
 *Source: instructor discussion prompts supplied by the team. Hypothetical and normative analysis, not a legal conclusion or evidence of Safelite discrimination.*
 
-## Slide 22: What should Safelite do now?
+## Slide 23: What should Safelite do now?
 
-**7 minutes | 51:00-58:00**
+**7 minutes | 53:00-60:00**
 
 ### Frame and initial vote: 45 seconds
 
@@ -532,17 +547,17 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 [Record the vote. Keep the presenter's recommendation private until after the debate.]
 
-### Prepare arguments: 2 minutes
+### Class discussion: 2 minutes
 
-**Say:** “Talk with someone who chose the same option, or defend your choice to a neighbor. Prepare your strongest economic reason and one piece of evidence that could reverse your choice.”
+**Ask:** “Why would you recommend your chosen option? What evidence would change your recommendation?”
 
-[Give a thirty-second warning. Invite one spokesperson for each option. If an option has no supporters, briefly state its strongest argument yourself.]
+[Invite supporters of each option to explain their reasoning. If an option has no supporters, briefly state its strongest argument yourself. No separate preparation or group work is needed.]
 
-### Hear the alternatives: 90 seconds
+### Compare the alternatives: 90 seconds
 
-**Ask:** “What is your strongest reason, and what would change your mind?”
+**Ask:** “Which assumptions does each recommendation depend on? What case evidence supports or challenges them?”
 
-[Allow thirty seconds per option. A useful argument for A identifies substantial controllable slack and feasible available jobs. B should explain which protection justifies its complexity. C should explain why operating constraints deserve priority and how it would address effort meanwhile.]
+[Allow about thirty seconds to examine each option. A useful argument for A identifies substantial controllable slack and feasible available jobs. B should explain which protection justifies its complexity. C should explain why operating constraints deserve priority and how it would address effort meanwhile.]
 
 ### Challenge and revote: 75 seconds
 
@@ -562,22 +577,22 @@ A. Risk pooling. B. Multitasking distortion. C. Perfect alignment. D. Lower marg
 
 “When evaluating performance pay, we should ask what people can control, what valuable work the measure misses, and what evidence would show that the contract improves total performance.”
 
-[If the team prefers A or C, substitute that recommendation and state its conditions and reversal test. Thank the class. Use the remaining two-minute session buffer for a final question or accumulated transitions.]
+[If the team prefers A or C, substitute that recommendation and state its conditions and reversal test. Thank the class. Use any remaining time for a final question.]
 
 *Source: decision point in HBS case, p. 9. Recommendation is the presenter's judgment.*
 
 ## Instructor-question coverage
 
-- **Why was productivity low?** Slides 2, 4-6, and 10 distinguish effort from operating constraints.
-- **How can piece rates help or backfire?** Slides 7-9, 11-17, and 19 cover incentives, risk, selection, quality, and management.
-- **Should there be a guaranteed minimum?** Slide 11 asks explicitly about discouragement and weak incentives below the floor; slides 12-13 add seasonality and the 30% reduction.
-- **Turnover, recruitment, productivity, and quality?** Slides 12-16 cover these separately; slide 20 proposes how to evaluate them.
-- **Personal preference, fairness, group pay gaps, hourly versus salary?** Slide 21 adds a four-minute discussion before the decision.
-- **Hanoi and Munger?** Slide 15 remains intact.
+- **Why was productivity low?** Slides 2, 4-6, and 11 distinguish effort from operating constraints.
+- **How can piece rates help or backfire?** Slides 7-10, 12-18, and 20 cover incentives, risk, selection, quality, and management.
+- **Should there be a guaranteed minimum?** Slide 12 asks explicitly about discouragement and weak incentives below the floor. Slides 13-14 add seasonality and the 30% reduction.
+- **Turnover, recruitment, productivity, and quality?** Slides 13-17 cover these separately. Slide 21 proposes how to evaluate them.
+- **Personal preference, fairness, group pay gaps, hourly versus salary?** Slide 22 includes a four-minute class discussion.
+- **Hanoi and Munger?** Slide 16 retains the historical example.
 
 ## Backup responses for likely questions
 
-These are optional preparation notes, not additional material to deliver on top of the 58-minute plan.
+These are optional preparation notes, not additional material to deliver on top of the 60-minute plan.
 
 **“What actually happened to productivity?”** The supplied A case ends with the decision and does not report a measured post-rollout productivity effect. This presentation evaluates the choice using the information in that case. Later empirical results would need separate sourcing.
 
@@ -609,4 +624,4 @@ These are optional preparation notes, not additional material to deliver on top 
 
 ## Source and scope
 
-Brian J. Hall, Edward Lazear, and Carleen Madigan, *Performance Pay at Safelite Auto Glass (A)*, Harvard Business School case 9-800-291, revised December 6, 2001. Citations refer to printed case pages. The script paraphrases the case and distinguishes reported facts from calculations, conceptual examples, and proposed decisions. Slide 15 adds separately sourced Munger commentary and a Hanoi historical analogy. Slide 21 uses the instructor's prompts for hypothetical and normative discussion. The script does not reproduce the original case or rely on later Safelite outcome evidence.
+Brian J. Hall, Edward Lazear, and Carleen Madigan, *Performance Pay at Safelite Auto Glass (A)*, Harvard Business School case 9-800-291, revised December 6, 2001. Citations refer to printed case pages. The script paraphrases the case and distinguishes reported facts from calculations, conceptual examples, and proposed decisions. Slide 16 adds separately sourced Munger commentary and a Hanoi historical analogy. Slide 22 uses the instructor's prompts for hypothetical and normative discussion. The script does not reproduce the original case or rely on later Safelite outcome evidence.

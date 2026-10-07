@@ -32,17 +32,19 @@
 
 ## Discussion checkpoints
 
-| When / slide | Ask the group |
+Use individual responses and whole-class discussion throughout. No pair or breakout work is planned.
+
+| When / slide | Discussion question |
 | --- | --- |
 | **01:00 · 2** | What best explains low output—and what evidence would change your mind? |
-| **17:00 · 10** | Who controls each bottleneck? Should it affect pay or trigger an operational fix? |
-| **21:00 · 11** | Keep the minimum, lower it, or remove it? How does it affect discouragement and effort? |
-| **25:00 · 13** | Would you accept a $308 weekly floor? What else must you know? |
-| **30:00 · 15** | What is Safelite’s “rat-tail” metric? What guardrail keeps it aligned with the goal? |
-| **34:00 · 17** | Design a rule for wrong glass, an absent customer, winter demand, or rework. |
-| **38:00 · 18** | Five-question quiz. **Answer key: B, C, D, A, B.** |
-| **47:00 · 21** | Which pay design do you prefer? When is paying more for output fair, and would hourly pay or salary change your view? |
-| **51:00 · 22** | Vote A/B/C; defend your choice; name evidence that would reverse it. |
+| **19:00 · 11** | Who controls each bottleneck? Should it affect pay or trigger an operational fix? |
+| **23:00 · 12** | Keep the minimum, lower it, or remove it? How does it affect discouragement and effort? |
+| **27:00 · 14** | Would you accept a $308 weekly floor? What else must you know? |
+| **32:00 · 16** | What is Safelite’s “rat-tail” metric? What guardrail keeps it aligned with the goal? |
+| **36:00 · 18** | Design a rule for wrong glass, an absent customer, winter demand, or rework. |
+| **40:00 · 19** | Five-question quiz. **Answer key: B, C, D, A, B.** |
+| **49:00 · 22** | Which pay design do you prefer? When is paying more for output fair, and would hourly pay or salary change your view? |
+| **53:00 · 23** | Which option would you recommend, and why? What evidence would change your recommendation? |
 
 ## Final decision
 
@@ -54,7 +56,7 @@
 
 **Suggested position, not a case finding:** Pilot B; track output, cost per unit, quality, earnings variability, and retention across seasons. Separate incumbent changes from hiring and exit.
 
-**Watch-outs:** The 30% cut concerns the guarantee—not every paycheck. The A case does not establish a post-rollout productivity effect. Protect the final debate if running late; skip optional questions on slides 3, 16, and 19. Target: **58 minutes + 2-minute buffer**.
+**Watch-outs:** The 30% cut concerns the guarantee—not every paycheck. The A case does not establish a post-rollout productivity effect. Protect the final debate if running late; skip optional questions on slides 3, 17, and 20. Target: **60 minutes including discussion**.
 
 *Source: Hall, Lazear, and Madigan, HBS case 9-800-291, Performance Pay at Safelite Auto Glass (A), revised December 6, 2001; printed pp. 2, 5–9. Economic interpretations and proposed changes are distinguished from case facts. Companion: [full talk track](safelite-talk-track.md).*
 
