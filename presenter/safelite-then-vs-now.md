@@ -1,7 +1,5 @@
 # Safelite: 1993 vs. Today (Discussion Points)
 
-Items marked **(verified)** were checked against a source listed at the bottom. Items marked **(general knowledge)** are reasoning, not sourced from the case, so present them as such.
-
 ---
 
 ## 1. Measurement is far better now (slides 4, 5, 6)
